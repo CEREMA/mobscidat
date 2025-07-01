@@ -4,6 +4,7 @@ tags:
 - environnement
 ---
 # Environnement
+Les études en lien avec l’environnement ont pour objectif d’évaluer les impacts environnementaux des déplacements, notamment en matière de qualité de l’air, de bruit, d’émissions de gaz à effet de serre et d’occupation des sols. Elles permettent d’identifier les leviers de réduction des nuisances et de transition vers des mobilités plus durables. Ces études peuvent accompagner des projets d’aménagement, des plans d’action climat ou des politiques publiques intégrant des objectifs environnementaux, et jouent un rôle essentiel dans l’adaptation des territoires aux enjeux de transition écologique. 
 
 ## modélisation
 - Modélisation des émissions de GES et polluants liées aux déplacements
