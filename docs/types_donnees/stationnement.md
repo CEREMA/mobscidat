@@ -24,7 +24,7 @@ ainsi que les rapports du Cerema sur ce thème, sur [ceremadoc](https://doc.cere
 
 - règlementation
 
-[https://www.ecologie.gouv.fr/politiques-publiques/parcs-stationnement](https://www.ecologie.gouv.fr/politiques-publiques/parcs-stationnement)
+[https://www.ecologie.gouv.fr/politiques-publiques/parcs-stationnement](https://www.ecologie.gouv.fr/politiques-publiques/parcs-stationnement)   et [guide parcs de stationnement 2023](https://www.ecologie.gouv.fr/sites/default/files/documents/Guide-parcs-de-stationnement-WEB.pdf)
 
 [https://www.ecologie.gouv.fr/politiques-publiques/laccessibilite-du-stationnement](https://www.ecologie.gouv.fr/politiques-publiques/laccessibilite-du-stationnement)
 
