@@ -115,9 +115,6 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - tags:
       tags_file: tags.md
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
 
 # CSS et JavaScript personnalisés
 extra_css:
