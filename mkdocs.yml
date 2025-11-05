@@ -129,9 +129,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/CEREMA/mobscidat
       name: GitHub
-    - icon: fontawesome/solid/envelope
-      link: mailto:mobscidat@cerema.fr
-      name: Contact
   
   # Bannière d'annonce (version de travail)
   announce:
