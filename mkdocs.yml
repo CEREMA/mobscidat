@@ -15,7 +15,6 @@ copyright: Copyright &copy; 2025 Cerema - Licence Ouverte 2.0
 theme:
   name: material
   language: fr
-  custom_dir: overrides
   
   # Palette de couleurs
   palette:
