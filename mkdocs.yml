@@ -1,45 +1,92 @@
-site_name: Ressources utiles sur les données de mobilité
-site_url: https://cerema.github.io/mobscidat
-repo_url: https://github.com/CEREMA/mobscidat
+site_name: MobSciDat - Ressources Données de Mobilité
+site_url: https://cerema.github.io/mobscidat/
+site_description: Centre de ressources sur les données de mobilité - Cerema
+site_author: Cerema
 
+# Repository
+repo_name: CEREMA/mobscidat
+repo_url: https://github.com/CEREMA/mobscidat
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 Cerema - Licence Ouverte 2.0
+
+# Configuration du thème
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  language: fr
+  custom_dir: overrides
+  
+  # Palette de couleurs
   palette:
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
+    # Mode clair
     - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
       primary: blue
-      accent: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    
+    # Mode sombre
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+  
+  # Polices
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
+    text: Roboto
+    code: Roboto Mono
+  
+  # Icônes et logo
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  
+  # Fonctionnalités
   features:
-    - navigation.tabs          
-    - navigation.tabs.sticky
-    - navigation.footer
-    - navigation.instant
-    - navigation.sections
-    - navigation.path
-    - navigation.top
-    - navigation.prune
-    - search.suggest
-    - search.highlight
-    - toc.follow
-    - toc.integrate
-  navigation:
-    tabs: true                
+    - navigation.instant        # Chargement instantané
+    - navigation.tracking       # Suivi d'URL
+    - navigation.tabs           # Onglets de navigation
+    - navigation.tabs.sticky    # Onglets fixes
+    - navigation.sections       # Sections dans la navigation
+    - navigation.expand         # Expansion automatique
+    - navigation.top            # Bouton retour en haut
+    - navigation.footer         # Footer de navigation
+    - search.suggest            # Suggestions de recherche
+    - search.highlight          # Surlignage des résultats
+    - search.share              # Partage de recherche
+    - toc.follow                # Suivi de la table des matières
+    - content.code.copy         # Copie de code
+    - content.action.edit       # Bouton d'édition
+    - content.action.view       # Bouton de vue
+    - content.tabs.link         # Liens entre onglets
+    - announce.dismiss          # Bannières dismissibles
 
+# Extensions Markdown
 markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
   - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -48,72 +95,70 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - admonition
-  - pymdownx.magiclink
-  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
+# Plugins
 plugins:
-  - tags
-  - search
+  - search:
+      lang: fr
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - tags:
+      tags_file: tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
 
+# CSS et JavaScript personnalisés
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Extra
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/CEREMA/mobscidat
+      name: GitHub
+    - icon: fontawesome/solid/envelope
+      link: mailto:mobscidat@cerema.fr
+      name: Contact
+  
+  # Bannière d'annonce (version de travail)
+  announce:
+    text: "🚧 VERSION DE TRAVAIL - Le site évolue régulièrement. Vos contributions sont bienvenues !"
+  
+  # Analytics (à activer si nécessaire)
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
 
+# Navigation
 nav:
   - Accueil: index.md
-  - Mots-clés: tags.md
-  - Glossaires:
-      - glossaire/glossaire.md
-      - Données massives: glossaire/donnees_massives.md
-      - Floating car data:
-          - FCD: glossaire/fcd/fcd.md
+  - Glossaire des glossaires: glossaire.md
   - Types de données:
-      - types_donnees/types_donnees.md
-      - outils open source: types_donnees/opensource.md
-      - OpenStreetMap : types_donnees/openstreetmap.md
-      - voirie : types_donnees/voirie.md
-      - transport public : types_donnees/transportpublic.md
-      - stationnement : types_donnees/stationnement.md
-      - covoiturage : types_donnees/covoiturage.md
-      - autopartage : types_donnees/autopartage.md
-      - vélo : types_donnees/velo.md
-      - accessibilité : types_donnees/accessibilite.md
+      - Vue d'ensemble: donnees/index.md
+      - Transport public: donnees/transport-public.md
+      - Trafic routier: donnees/trafic.md
+      - Voirie: donnees/voirie.md
+      - Stationnement: donnees/stationnement.md
   - Types d'études:
-      - Introduction:
-          - Vue d'ensemble: type_etudes/type_etudes.md
-          - études générales: type_etudes/TE_general.md    
-      - Catégories:
-          - Modélisation: type_etudes/modelisation.md
-          - Planification: type_etudes/planification.md
-          - Mise en oeuvre: type_etudes/mise_en_oeuvre.md
-          - Evaluation: type_etudes/evaluation.md
-          - Observation: type_etudes/observation.md
-          - Accompagnement: type_etudes/accompagnement.md
-          - Recueil de données: type_etudes/recueil_donnees.md
-      - Métiers:
-          - transport collectif et train: type_etudes/TE_TC.md
-          - transport scolaire: type_etudes/TE_scolaire.md
-          - pôles d'échange multimodaux: type_etudes/TE_PEM.md
-          - transports solidaires et accessibles: type_etudes/TE_access_soli.md
-          - voirie et l'espace public: type_etudes/TE_voirie.md
-          - modes actifs, vélo et marche: type_etudes/TE_modes_actifs.md
-          - trafic routier: type_etudes/TE_trafic.md
-          - services de mobilité partagée: type_etudes/TE_mobilite_partagee.md
-          - stationnement: type_etudes/TE_stationnement.md
-          - management de la mobilité: type_etudes/TE_management_mob.md
-          - sécurité routière et accidentologie: type_etudes/TE_accidento.md
-          - logistique urbaine: type_etudes/TE_logistique_urbaine.md
-          - décarbonation et électrification: type_etudes/TE_decarbo.md
-          - environnement: type_etudes/TE_environnement.md
-
+      - Vue d'ensemble: etudes/index.md
+      - Enquêtes mobilité: etudes/enquetes.md
+      - Modélisation: etudes/modelisation.md
+  - Contribuer: contribuer.md
+  - À propos: apropos.md
