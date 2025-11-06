@@ -22,10 +22,8 @@ Les schémas de données existant sur le sujet du vélo:
 
 la Base Nationale des Aménagements Cyclables (BNAC) s’appuie sur un schéma de données (développé par l’équipe de transport.data.gouv.fr, en collaboration avec l'association Vélo & Territoires) et est gérée sur Open Street Map :
 
-*   [https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables/0.3.3/](https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables/0.3.3/)
-*   [https://doc.transport.data.gouv.fr/type-donnees/amenagements-cyclables/elaboration-du-schema-national-des-amenagements-cyclables](https://doc.transport.data.gouv.fr/type-donnees/amenagements-cyclables/elaboration-du-schema-national-des-amenagements-cyclables)
-*   [https://www.velo-territoires.org/politiques-cyclables/data-velo-modeles-donnees/geostandard-veloroutes-voies-vertes/](https://www.velo-territoires.org/politiques-cyclables/data-velo-modeles-donnees/geostandard-veloroutes-voies-vertes/)
-    les données sont publiées par Géovélo mensuellement au format GeoJSON selon le schema BNAC, certaines collectivités publient aussi leurs données, qui sont intégrées à Open Street Map : (à vérifier si toutes les données sont à jour dans OSM)
+*  Schéma de données d'aménagements cyclables : [https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables/0.3.3/](https://schema.data.gouv.fr/etalab/schema-amenagements-cyclables/0.3.3/)
+*  Les données sont publiées par Géovélo mensuellement au format GeoJSON selon le schema ci-dessus, certaines collectivités publient aussi leurs données, qui sont intégrées à Open Street Map : (à vérifier si toutes les données sont à jour dans OSM) : https://transport.data.gouv.fr/datasets/amenagements-cyclables-france-metropolitaine  
 *   [https://transport.data.gouv.fr/datasets?type=bike-data](https://transport.data.gouv.fr/datasets?type=bike-data)
 
 Géovélo publie aussi les données sur ce site :
@@ -36,19 +34,19 @@ Géovélo publie aussi les données sur ce site :
 ([https://doc.transport.data.gouv.fr/type-donnees/documentation-sur-le-stationnement-cyclable](https://doc.transport.data.gouv.fr/type-donnees/documentation-sur-le-stationnement-cyclable))
 
 la Base Nationale du Stationnement Cyclable (BNSC) fonctionne selon le même principe que la BNAC  :
-schéma de données :
 
-*   [https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-stationnement-cyclable](https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-stationnement-cyclable)
+
+*  Schéma de données : [https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-stationnement-cyclable](https://www.data.gouv.fr/fr/datasets/?schema=etalab/schema-stationnement-cyclable)
 *   [https://transport.data.gouv.fr/datasets/stationnements-cyclables-issus-dopenstreetmap](https://transport.data.gouv.fr/datasets/stationnements-cyclables-issus-dopenstreetmap)
     Données gérées dans la base Open Street Map et exportées en JSON selon le schéma format BNSC :
 
-les collectivités publiant également les données les concernant :
+Les collectivités publient également les données les concernant :
 [https://transport.data.gouv.fr/datasets?q=stationnement+cyclable](https://transport.data.gouv.fr/datasets?q=stationnement+cyclable)
 
 ### stationnements sécurisés en gare
 
 *   Données Gares et Connexion :  [https://ressources.data.sncf.com/explore/dataset/stationnement-securise-velo-en-gare-au-30-06-24/information/](https://ressources.data.sncf.com/explore/dataset/stationnement-securise-velo-en-gare-au-30-06-24/information/)
-*   observatoire de Vélo & territoires :
+*   Observatoire de Vélo & territoires :
     [https://www.velo-territoires.org/observatoires/donnees-velo/stationnement-velo-en-gare/](https://www.velo-territoires.org/observatoires/donnees-velo/stationnement-velo-en-gare/) les données proviennent de SNCF Gares & Connexions, et sont corrigées en partie par les Dreals et régions
 *   Il manque les données de stationnement vélo dans les parkings en ouvrage ?
 
@@ -74,8 +72,6 @@ Vélo & Territoires propose aussi un outil de signalement des anomalies cyclable
 ## Services de vélo en libre-service
 
 Les vélos en libre-service sont publiés selon le même format GBFS que les autres véhicules (trottinettes, auto-partage..), avec la disponibilité en temps réel aux stations
-
-[https://doc.transport.data.gouv.fr/type-donnees/velos-en-libre-service](https://doc.transport.data.gouv.fr/type-donnees/velos-en-libre-service)
 
 [https://transport.data.gouv.fr/datasets?type=vehicles-sharing](https://transport.data.gouv.fr/datasets?type=vehicles-sharing)
 
@@ -103,11 +99,13 @@ est un service proposé par le Pôle ressources national sports de nature, missi
 
 ### Comptages
 
-Pour suivre la fréquentation des itinéraires, Vélo & territoires a développé l'observatoire  :
+Pour suivre la fréquentation des itinéraires, Vélo & territoires a développé cet observatoire  :
 [https://www.velo-territoires.org/observatoires/donnees-velo/frequentation-itineraires/](https://www.velo-territoires.org/observatoires/donnees-velo/frequentation-itineraires/)
 
 chiffres 2023 :
 [https://www.velo-territoires.org/observatoires/donnees-velo/frequentations-velo-en-france-2023/](https://www.velo-territoires.org/observatoires/donnees-velo/frequentations-velo-en-france-2023/)
+Chiffres 2024 : https://www.velo-territoires.org/actualite/2025/07/24/57310/ 
+Chiffres 2025: https://reseau-velo-marche.shinyapps.io/bulletin/ 
 
 La Plateforme nationale des fréquentations (PNF) centralise plus de 1700 compteurs partagés, les données de ces compteurs sont accessibles aux contributeurs et aux adhérents de Vélo & territoires. Ces données sont utilisées par Vélo & territoires pour produire des rapports annuels.
 [https://www.velo-territoires.org/observatoires/plateforme-nationale-de-frequentation/](https://www.velo-territoires.org/observatoires/plateforme-nationale-de-frequentation/)
@@ -175,7 +173,7 @@ Celle-ci a interrogé les collectivités françaises sur les stratégies et acti
 
 Le label “accueil vélo”, tous les services labellisés sont visibles sur une carte par région via les atlas régionaux de RVM
 
-### Vélo loisirs
+### Vélo sportif
 
 Le nombre de licenses à la fédération francaise de cyclisme et la fédération française de cyclotourisme, ainsi que le nombre d’educateurs pour ces activités sont répertoriés dans l’Observatoire des sports de nature : [https://observatoire.sportsdenature.gouv.fr/](https://observatoire.sportsdenature.gouv.fr/)
 
