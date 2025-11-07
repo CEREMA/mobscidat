@@ -47,15 +47,15 @@ Les données publiées sur le PAN transport
 [https://transport.data.gouv.fr/datasets?q=stationnement](https://transport.data.gouv.fr/datasets?q=stationnement) voir aussi [la documentation](https://doc.transport.data.gouv.fr) qui décrit le cadre juridique et les standards.
 
 
-# Les principaux types de données :
+## Les principaux types de données
 
 L'offre de stationnement est diverse (publique, privée, en voirie, parc ou ouvrage), elle peut être décrite à différents niveaux de détail (description des places individuelles ou pas, avec distinction entre PMR - livraisons - autopartage - places électriques - autocars  - 2 roues…) selon les besoins (gestion de voirie, de patrimoine, urbanisme, service aux usagers, zones de stationnement payant / ZPS, gestion de la carte mobilité inclusion, suivi des obligations règlementaires, suivi des parcs relais P+R, dépose-minute, etc.) donc un référentiel doit en principe intégrer différents objets reliés entre eux (parc, place, etc.). En général la donnée est décrite sous une forme géoréférencée permettant de produire des cartes sur un SIG, avec des données linéaires ou surfaciques, sans qu'il y ait à notre connaissance de format standards pour décrire ces données, ni de modèle de données.
 
-## Cas d'usage
+### Cas d'usage
 
 Les données de stationnement sont utiles pour divers besoin (voirie, patrimoine, logistique urbaine, gestion du stationnement proprement dite) et sont indispensables pour s'assurer du respect des obligations réglementaires (d'urbanisme notamment) ou le suivi des contrats d'exploitation.
 
-## Standards et modèles de données
+### Standards et modèles de données
 
 Le standard européen APDS ([https://www.allianceforparkingdatastandards.org](https://www.allianceforparkingdatastandards.org) avec la documentation technique ici : [https://github.com/parkingdata/spec/tree/master/specs](https://github.com/parkingdata/spec/tree/master/specs)) inclut un modèle de données du stationnement assez général qui semble pouvoir prendre en compte une bonne partie (mais à notre connaissance, il est peu implémenté en France?).
 
@@ -157,7 +157,7 @@ Les données d'usage sont les données mesurées ou historisées d'occupation, r
 - Coûts et recettes : Données économiques sur le stationnement (revenus, coûts d'exploitation)
 - Enquêtes de comportement : Pratiques des usagers, temps de recherche
 
-# Recueil de données
+## Recueil de données
 
 Les collectivités gestionnaires de voirie et AOM sont amenés à compléter régulièrement leurs données concernant le stationnement, au moyen d'enquêtes, et de comptage (utilisant de plus en plus des systèmes automatisés utilisant des prises de vue embarquées, même si pour l'instant l'utilisation des véhicules de verbalisation par LAPI ne semble pas encore possible pour le recueil de données).
 
