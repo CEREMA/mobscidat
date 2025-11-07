@@ -8,7 +8,7 @@ N'hésitez pas à nous contacter pour toute question ou suggestion.
 
 Le centre de ressources comprend les rubriques suivantes :
 
-1) Glossaire des glossaires
+1) Recensement des glossaires
 
 2) **Types de données de mobilité**
 Proposition de typologie de données, avec une fiche décrivant les principales infos utiles sur les données par métier (transport public, trafic, voirie, stationnement...) :
