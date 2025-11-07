@@ -73,7 +73,7 @@ Il peut être intéressant aussi de regarder comment le stationnement en voirie 
 
 ### En voirie 
 
-Distinction entre stationnement toléré et réglementé (avec description des places)
+Distinction entre stationnement toléré et réglementé (avec description des places). Le recensement du stationnement distingue idéalement les différents types de place (PMR, recharge, covoiturage, 2 roues, etc.).
 
 Il peut être intéressant aussi de regarder comment le stationnement en voirie est décrit dans le standard américain CDS (curb management specification). CDS vise à décrire les trottoirs :
 https://www.vianova.io/blog/making-sense-of-curb-and-parking-data-standards
