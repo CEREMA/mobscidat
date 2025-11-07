@@ -15,6 +15,7 @@ copyright: Copyright &copy; 2025 Cerema - Licence Ouverte 2.0
 theme:
   name: material
   language: fr
+  logo: assets/msdf.png
   
   # Palette de couleurs
   palette:
