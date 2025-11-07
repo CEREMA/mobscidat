@@ -149,8 +149,10 @@ Partie à compléter !
 
 il existe un très grand nombre de logiciels libres pour traiter les données au format GTFS, comme le prouve la liste de MobilityData :
 - [https://github.com/MobilityData/awesome-transit](https://github.com/MobilityData/awesome-transit)
-Mais aussi ces listes !
+
+Mais aussi ces listes :
 - [https://github.com/pomodoren/awesome-open-transport](https://github.com/pomodoren/awesome-open-transport)
+  
 - [https://github.com/andredarcie/awesome-gtfs](https://github.com/andredarcie/awesome-gtfs)
 
 Le PAN transport fournit des outils en ligne et certains logiciels libres comme GTFS-diff :
@@ -181,10 +183,6 @@ Un chercheur allemand qui publie les données GTFS pour toute l'Allemagne (https
 - **Agrégateurs MaaS** (Mobility as a Service)
 - **Calculateurs d'itinéraires multimodaux**
 - **Applications grand public** (CityMapper, Google Maps, Moovit, etc.)
-
-#### Projets et initiatives
-
-#### Formations
 
 #### Communautés et forums
 
