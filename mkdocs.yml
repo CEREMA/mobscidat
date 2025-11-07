@@ -151,14 +151,13 @@ nav:
           - FCD: glossaire/fcd/fcd.md
   - Types de données:
       - types_donnees/types_donnees.md
-      - outils open source: types_donnees/opensource.md
       - OpenStreetMap : types_donnees/openstreetmap.md
       - voirie : types_donnees/voirie.md
       - transport public : types_donnees/transportpublic.md
+      - vélo : types_donnees/velo.md
       - stationnement : types_donnees/stationnement.md
       - covoiturage : types_donnees/covoiturage.md
       - autopartage : types_donnees/autopartage.md
-      - vélo : types_donnees/velo.md
       - accessibilité : types_donnees/accessibilite.md
   - Types d'études:
       - Introduction:
