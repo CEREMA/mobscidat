@@ -57,7 +57,7 @@ Les données de stationnement sont utiles pour divers besoin (voirie, patrimoine
 
 ## Standards et modèles de données
 
-Le standard européen APDS ([https://www.allianceforparkingdatastandards.org](https://www.allianceforparkingdatastandards.org) avec la documentation technique ici : [https://github.com/parkingdata/spec/tree/master/specs](https://github.com/parkingdata/spec/tree/master/specs)) inclut un modèle de données du stationnement assez général qui semble pouvoir prendre en compte une bonne partie (mais à notre connaissance il est peu implémenté en France?).
+Le standard européen APDS ([https://www.allianceforparkingdatastandards.org](https://www.allianceforparkingdatastandards.org) avec la documentation technique ici : [https://github.com/parkingdata/spec/tree/master/specs](https://github.com/parkingdata/spec/tree/master/specs)) inclut un modèle de données du stationnement assez général qui semble pouvoir prendre en compte une bonne partie (mais à notre connaissance, il est peu implémenté en France?).
 
 En France, ont été définis un profil d'échange normalisé s'appuyant sur Netex en lien avec le règlement délégué MMTIS, et des schéma de données pour le stationnement vélo, les aires de covoiturage, ainsi que la réglementation des aires de livraison. (cf. plus bas)
 
@@ -73,13 +73,12 @@ Il peut être intéressant aussi de regarder comment le stationnement en voirie 
 
 ### En voirie 
 
-distinction entre stationnement toléré et réglementé (avec description des places)
+Distinction entre stationnement toléré et réglementé (avec description des places)
 
-Le standard nord-américain CDS (curb management specification) vise à décrire les trottoirs mais n'est pas mis en oeuvre en France à notre connaissance :
-
-[https://www.vianova.io/blog/making-sense-of-curb-and-parking-data-standards](https://www.vianova.io/blog/making-sense-of-curb-and-parking-data-standards)
-
-[https://www.openmobilityfoundation.org/about-cds/](https://www.openmobilityfoundation.org/about-cds/)
+Il peut être intéressant aussi de regarder comment le stationnement en voirie est décrit dans le standard américain CDS (curb management specification). CDS vise à décrire les trottoirs :
+https://www.vianova.io/blog/making-sense-of-curb-and-parking-data-standards
+https://www.openmobilityfoundation.org/about-cds/
+Jusqu’à récemment, CDS n’était pas utilisé en France à notre connaissance : le projet Interlud+ propose de l’utiliser pour décrire les aires de livraison, et étendre le schéma de données existant (https://schema.data.gouv.fr/CEREMA/schema-aire-livraison/ ).
 
 ### Aires de stationnement
 
