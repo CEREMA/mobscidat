@@ -27,6 +27,12 @@ Cette catégorie regroupe les études qui portent sur une approche globale de la
 - Évaluation nationale de la politique de mobilité (loi LOM, loi Climat)
 - Bilan transversal d’impact de la stratégie mobilité / d’un PDM
 
+#### Les Bilans ex-post des projets d'infrastructure (bilans LOTI)
+- projets routiers : https://www.ecologie.gouv.fr/politiques-publiques/bilans-ex-post-projets-routiers-bilans-loti 
+- synthèse 2018 : https://www.cerema.fr/fr/actualites/rapport-cerema-synthese-bilans-ex-post-projets-routiers 
+- projets ferrés : https://www.sncf-reseau.com/fr/node/4575 
+- bilan des bilans LOTI 2021 : https://igedd.documentation.developpement-durable.gouv.fr/notice?id=Affaires-0011649
+
 ## observation
 - Mise en place d’observatoires territoriaux des mobilités
 - Production de comptes déplacements à l’échelle intercommunale / régionale
