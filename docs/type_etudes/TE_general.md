@@ -11,6 +11,7 @@ Cette catégorie regroupe les études qui portent sur une approche globale de la
 ## modélisation
 - Modélisation multimodale à l’échelle d’un bassin de mobilité
 - Analyse prospective de la demande à l’échelle territoriale (ex. scénarios de transition modale ou démographique)
+  
 -> **Carte des 43 modèles de déplacements recensés en France** : https://www.cerema.fr/fr/actualites/projet-forbac-comment-faire-evoluer-modelisation-mobilites#toc-une-cartographie-interactive-des-modeles-de-deplacements 
 
 ## planification
