@@ -32,6 +32,10 @@ Cette catégorie regroupe les études qui portent sur une approche globale de la
 - Production de comptes déplacements à l’échelle intercommunale / régionale
 - Suivi des dynamiques intermodales / modales dans le temps
 
+-> les **Observatoires Régionaux des Transports** (mobilité et logistique) mis en place par les DREAL avec les Régions : https://www.ort-centre-val-de-loire.fr/le-reseau-des-ort-a661.html  
+
+-> **l'annuaire des acteurs de l'observation de l'ANCT** : https://www.observatoire-des-territoires.gouv.fr/partenaires?keys=&pr1=&t1=&t2%5B%5D=7&ec1= (thématique Mobilités)
+
 ## accompagnement
 - AMO pour appui stratégique ou gouvernance mobilité
 - Animation d’instances territoriales de coordination (AOM, intercos, Région)
