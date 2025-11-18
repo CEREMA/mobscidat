@@ -11,32 +11,26 @@ Vos contributions pour la mettre à jour sont les bienvenues !
 
 ## Vue d’ensemble
 
-Ce site recense beaucoup de ressources : https://trafic-routier.data.cerema.fr/
+Ce site recense beaucoup de ressources : (https://trafic-routier.data.cerema.fr/)
 
-# Données de Trafic
-
-Cette page recense les principaux types de données disponibles concernant le trafic routier en France. Elle vise à faciliter l'accès aux données pour les chercheurs, les collectivités, les entreprises et tous les acteurs intéressés par la mobilité et les infrastructures.
 
 ## Types de Données et Sources
 
 *   **Trafic en temps réel :**
     *   Description : Débit, vitesse, taux d'occupation des routes, événements et indicents, incidents.
     *   Sources :
-        *   **Bison Futé :** [https://www.bison-fute.gouv.fr/](https://www.bison-fute.gouv.fr/) - Informations nationales sur les conditions de circulation.
-        *   **Sytadin :** [https://www.sytadin.fr/](https://www.sytadin.fr/) - Informations en temps réel pour la région Île-de-France.
-        *   **AVATAR :** [https:/avatar.cerema.fr/](https://avatar.cerema.fr/) - Plateforme du Cerema, données nationales et locales.
+        *   **Data gouv :** [https:/data.gouv.fr/](https://data.gouv.fr/) - portail national open data, les mots-clés permettent de trouver des données par exemple de comptages, mais le recensement n'est pas systèmatique ex.  (https://www.data.gouv.fr/datasets/search/?q=comptages) ; le site trafic-routier data du Cerema recense beaucoup de datasets open data des gestionnaires routiers mais n'est pas mis à jour régulièrement : (https://trafic-routier.data.cerema.fr/acces-aux-donnees-de-trafic-routier-open-data-r25.html) 
+        *   **PAN Transport :** [https://transport.data.gouv.fr/](https://transport.data.gouv.fr/) - Informations en temps réel : https://transport.data.gouv.fr/datasets?filter=has_realtime&type=road-data 
+        *   **AVATAR :** [https:/avatar.cerema.fr/](https://avatar.cerema.fr/) - Plateforme du Cerema, données de trafic nationales et locales, permet à tout gestionnaire routier de connecter gratuitement ses données temps réel et de publier des données temps réel et comptages agrégés.
     *   Formats : Flux de données (API), cartes interactives, applications mobiles
-    *   Standards : DatexII pour le trafic et les événements
+    *   Standards : DatexII pour le trafic et les événements, [API Avatar](https://avatar.cerema.fr/api/doc)
 
 *   **Comptages routiers : comptages permanents, temporaires, ponctuels**
     *   Description : Mesures de trafic sur des points spécifiques (stations de comptage).
-    *   Sources :
-        *   **Comptages routiers permanents (Ministère de la Transition Écologique) :** (Difficile de donner un lien direct, souvent intégrées dans des rapports ou accessibles sur demande) - Données nationales, historiques.  Chercher sur [data.gouv.fr](https://www.data.gouv.fr/).
-        *   **Collectivités territoriales :** (Varie en fonction de la collectivité, chercher sur leurs sites de données ouvertes) - Départements, régions, métropoles (souvent en open data).
-        *   **[trafic-routier.data.cerema.fr](https://trafic-routier.data.cerema.fr/) :** [https://trafic-routier.data.cerema.fr/](https://trafic-routier.data.cerema.fr/) - Agrégation de données de comptage.
-    *   Formats : Tableaux de données, fichiers CSV.
 
-*   **Comptages PL / pesage:**
+
+*   **Comptages PL :**
+- classification nombre d'essieux, pesage : en complément des comptages trafic classiques qui comptent aussi les PL, 14 classes de véhicules
 
 *   **Enquêtes OD routières:**
 https://www.cerema.fr/fr/actualites/standard-enquetes-circulation 
@@ -47,13 +41,14 @@ https://www.cerema.fr/fr/actualites/standard-enquetes-circulation
 ## Outils et Ressources
 
 *   **Outils de visualisation et d'analyse :**
-    *   QGIS
-    *   GeoPandas (Python)
+    *   open source : QGIS, librairies python...
     *   Logiciels de traitement de données statistiques (R, Python)
+
+*   **Principaux fournisseurs :**
 
 *   **Documentation et standards :**
     *   Formats de données standardisés (e.g., DATEX II pour les données de trafic en temps réel)
-    *   Documentation des API des différentes sources de données (à chercher individuellement)
+    *   Documentation des API des différentes sources de données
 
 ## Contributions
 
