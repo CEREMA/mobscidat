@@ -11,11 +11,7 @@ Vos contributions pour la mettre à jour sont les bienvenues !
 
 ## Vue d’ensemble
 
-https://trafic-routier.data.cerema.fr/
-
----
-title: Données de Trafic
----
+Ce site recense beaucoup de ressources : https://trafic-routier.data.cerema.fr/
 
 # Données de Trafic
 
@@ -23,16 +19,16 @@ Cette page recense les principaux types de données disponibles concernant le tr
 
 ## Types de Données et Sources
 
-*   **Données de trafic en temps réel :**
-    *   Description : Débit, vitesse, taux d'occupation des routes, incidents.
+*   **Trafic en temps réel :**
+    *   Description : Débit, vitesse, taux d'occupation des routes, événements et indicents, incidents.
     *   Sources :
         *   **Bison Futé :** [https://www.bison-fute.gouv.fr/](https://www.bison-fute.gouv.fr/) - Informations nationales sur les conditions de circulation.
         *   **Sytadin :** [https://www.sytadin.fr/](https://www.sytadin.fr/) - Informations en temps réel pour la région Île-de-France.
-        *   **Trafic-routier.data.cerema.fr :** [https://trafic-routier.data.cerema.fr/](https://trafic-routier.data.cerema.fr/) - Plateforme du Cerema, données nationales et locales.
-        *   **Applications de navigation (Waze, Google Maps) :** (Liens variables en fonction de l'application) - Données collaboratives, souvent en temps réel.
-    *   Formats : Flux de données (API), cartes interactives, applications mobiles.
+        *   **AVATAR :** [https:/avatar.cerema.fr/](https://avatar.cerema.fr/) - Plateforme du Cerema, données nationales et locales.
+    *   Formats : Flux de données (API), cartes interactives, applications mobiles
+    *   Standards : DatexII pour le trafic et les événements
 
-*   **Données de comptage routier :**
+*   **Comptages routiers : comptages permanents, temporaires, ponctuels**
     *   Description : Mesures de trafic sur des points spécifiques (stations de comptage).
     *   Sources :
         *   **Comptages routiers permanents (Ministère de la Transition Écologique) :** (Difficile de donner un lien direct, souvent intégrées dans des rapports ou accessibles sur demande) - Données nationales, historiques.  Chercher sur [data.gouv.fr](https://www.data.gouv.fr/).
@@ -40,31 +36,13 @@ Cette page recense les principaux types de données disponibles concernant le tr
         *   **[trafic-routier.data.cerema.fr](https://trafic-routier.data.cerema.fr/) :** [https://trafic-routier.data.cerema.fr/](https://trafic-routier.data.cerema.fr/) - Agrégation de données de comptage.
     *   Formats : Tableaux de données, fichiers CSV.
 
-*   **Données de simulation de trafic :**
-    *   Description : Modèles de trafic pour anticiper les flux, évaluer des scénarios.
-    *   Sources :
-        *   **Logiciels de simulation (SUMO) :** [https://www.eclipse.org/sumo/](https://www.eclipse.org/sumo/)
- 	*   **Logiciels de simulation (VISSIM) :** [https://www.ptvgroup.com/fr/solutions/produits/ptv-vissim/](https://www.ptvgroup.com/fr/solutions/produits/ptv-vissim/) - Nécessitent des données d'entrée (cartographie, matrices origine-destination).
-        *   **Études de trafic :** (Pas de lien direct, dépend des bureaux d'études) Souvent réalisées par des bureaux d'études pour des projets spécifiques.
+*   **Comptages PL / pesage:**
 
-*   **Données de localisation (issus des téléphones portables, véhicules connectés):**
-    *   Description : Reconstitution des déplacements, matrices Origine-Destination (OD)
-    *   Sources :
-        *   **Orange Flux Vision :** [https://fluxvision.orange.fr/](https://fluxvision.orange.fr/)
-        *   **Constructeurs automobiles**: (l'accès dépend de chaque constructeur)
-    *   Formats : Données agrégées et anonymisées
+*   **Enquêtes OD routières:**
+https://www.cerema.fr/fr/actualites/standard-enquetes-circulation 
 
-## Accès aux Données
+*   **Comptages modes actifs:**
 
-*   **Plateformes de données ouvertes :**
-    *   [data.gouv.fr](https://www.data.gouv.fr/)
-    *   Sites de données ouvertes des régions et des collectivités (à chercher individuellement)
-
-*   **Producteurs de données :**
-    *   Cerema ([https://trafic-routier.data.cerema.fr/](https://trafic-routier.data.cerema.fr/))
-    *   Ministère de la Transition Écologique (via data.gouv.fr et publications)
-    *   Collectivités territoriales (via leurs sites de données ouvertes)
-    *   Sociétés d'autoroutes (pour les données sur autoroutes, à chercher individuellement)
 
 ## Outils et Ressources
 
