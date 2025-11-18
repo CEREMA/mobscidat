@@ -31,6 +31,7 @@ Ce site recense beaucoup de ressources : (https://trafic-routier.data.cerema.fr/
 
 *   **Comptages PL :**
 - classification nombre d'essieux, pesage : en complément des comptages trafic classiques qui comptent aussi les PL, 14 classes de véhicules
+- https://www.cerema.fr/fr/mots-cles/poids-lourd 
 
 *   **Enquêtes OD routières:**
 https://www.cerema.fr/fr/actualites/standard-enquetes-circulation 
