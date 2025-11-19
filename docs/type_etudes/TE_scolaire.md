@@ -5,7 +5,7 @@ tags:
 ---
 # Transport scolaire
 Les études sur le transport scolaire visent à organiser, adapter et optimiser les services de transport dédiés aux élèves, en tenant compte des besoins des établissements, des contraintes territoriales et des profils des usagers. Elles permettent d’analyser les itinéraires, la fréquentation, les coûts, ainsi que la qualité du service rendu. Ces études contribuent à garantir l’accès à l’éducation dans de bonnes conditions de sécurité, d’efficacité et d’équité, tout en articulant le transport scolaire avec les autres offres de mobilité du territoire. 
-[Exemples d'études](https://documentsmarches.francemobilites.fr/Search/?sort=score&sortOrder=desc&highlight=true&facet=true&r=1&f_type=DOCUMENT&f_property.FMCode.PublicContractClass.natureOfPrestations_string=Etude+service&l_property.FMCode.PublicContractClass.natureOfPrestations_string=25&l_property.FMCode.PublicContractClass.metierIndex_string=20&text=transport+scolaire)
+[Exemples d'études](https://documentsmarches.francemobilites.fr/Search/?sort=score&sortOrder=desc&highlight=true&facet=true&r=1&f_type=DOCUMENT&f_property.FMCode.PublicContractClass.natureOfPrestations_string=Etude+service&text=transport+scolaire)
 
 ## modélisation
 - Modélisation des besoins futurs à partir des données démographiques et scolaires
