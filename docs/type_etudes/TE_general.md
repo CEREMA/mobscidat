@@ -14,7 +14,7 @@ Voir cette liste plus complète : (https://grist.numerique.gouv.fr/o/mobscidat/k
 - Modélisation multimodale à l’échelle d’un bassin de mobilité
 - Analyse prospective de la demande à l’échelle territoriale (ex. scénarios de transition modale ou démographique)
   
--> **Carte des 43 modèles de déplacements recensés en France** : https://www.cerema.fr/fr/actualites/projet-forbac-comment-faire-evoluer-modelisation-mobilites#toc-une-cartographie-interactive-des-modeles-de-deplacements 
+-> **Carte des 43 modèles de déplacements recensés en France** : (https://www.cerema.fr/fr/actualites/projet-forbac-comment-faire-evoluer-modelisation-mobilites#toc-une-cartographie-interactive-des-modeles-de-deplacements )
 
 ## planification
 - Cadrage stratégique de la politique de mobilité à l’échelle régionale / intercommunale
@@ -30,19 +30,19 @@ Voir cette liste plus complète : (https://grist.numerique.gouv.fr/o/mobscidat/k
 - Bilan transversal d’impact de la stratégie mobilité / d’un PDM
 
 #### Les Bilans ex-post des projets d'infrastructure (bilans LOTI)
-- projets routiers : https://www.ecologie.gouv.fr/politiques-publiques/bilans-ex-post-projets-routiers-bilans-loti 
-- synthèse 2018 : https://www.cerema.fr/fr/actualites/rapport-cerema-synthese-bilans-ex-post-projets-routiers 
-- projets ferrés : https://www.sncf-reseau.com/fr/node/4575 
-- bilan des bilans LOTI 2021 : https://igedd.documentation.developpement-durable.gouv.fr/notice?id=Affaires-0011649
+- projets routiers : (https://www.ecologie.gouv.fr/politiques-publiques/bilans-ex-post-projets-routiers-bilans-loti )
+- synthèse 2018 : (https://www.cerema.fr/fr/actualites/rapport-cerema-synthese-bilans-ex-post-projets-routiers )
+- projets ferrés : (https://www.sncf-reseau.com/fr/node/4575 )
+- bilan des bilans LOTI 2021 : (https://igedd.documentation.developpement-durable.gouv.fr/notice?id=Affaires-0011649)
 
 ## observation
 - Mise en place d’observatoires territoriaux des mobilités
 - Production de comptes déplacements à l’échelle intercommunale / régionale
 - Suivi des dynamiques intermodales / modales dans le temps
 
--> les **Observatoires Régionaux des Transports** (mobilité et logistique) mis en place par les DREAL avec les Régions : https://www.ort-centre-val-de-loire.fr/le-reseau-des-ort-a661.html  
+-> les **Observatoires Régionaux des Transports** (mobilité et logistique) mis en place par les DREAL avec les Régions : (https://www.ort-centre-val-de-loire.fr/le-reseau-des-ort-a661.html ) 
 
--> **l'annuaire des acteurs de l'observation de l'ANCT** : https://www.observatoire-des-territoires.gouv.fr/partenaires?keys=&pr1=&t1=&t2%5B%5D=7&ec1= (thématique Mobilités)
+-> **l'annuaire des acteurs de l'observation de l'ANCT** : (https://www.observatoire-des-territoires.gouv.fr/partenaires?keys=&pr1=&t1=&t2%5B%5D=7&ec1= ) (thématique Mobilités)
 
 ## accompagnement
 - AMO pour appui stratégique ou gouvernance mobilité
@@ -53,4 +53,4 @@ Voir cette liste plus complète : (https://grist.numerique.gouv.fr/o/mobscidat/k
 ## recueil de données
 - Enquêtes de mobilité (EMC2, EGT, EMP…) et baromètres
 
--> **Carte des enquêtes EMC2 depuis 2015** : https://www.cerema.fr/fr/activites/mobilites/connaissance-modelisation-evaluation-mobilite/enquetes-mobilite-emc2 
+-> **Carte des enquêtes EMC2 depuis 2015** : (https://www.cerema.fr/fr/activites/mobilites/connaissance-modelisation-evaluation-mobilite/enquetes-mobilite-emc2 )
