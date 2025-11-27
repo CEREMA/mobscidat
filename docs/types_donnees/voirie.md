@@ -10,65 +10,55 @@ Cette page recense les ressources utiles sur les données de voirie en France. E
 
 ## Types de Données
 
-### Géométrie / Référentiels (filaires)
-    *   Description : Tracé des routes, autoroutes, rues, chemins, etc.
-    *   Sources : IGN (BD TOPO, Route 500), OpenStreetMap, bases de données des collectivités
-    *   Formats : Shapefile, GeoJSON, Geopackage
-    *   Exemples d'utilisation : Cartographie, navigation, analyse de réseau
+### Linéaire de voirie
+Tracé des routes, autoroutes, rues, chemins, etc.
+Sources : IGN (BD TOPO, Route 500), OpenStreetMap, bases de données des collectivités
+Formats : Shapefile, GeoJSON, Geopackage
 
-#### Description surfacique de la voirie urbaine
+### Description surfacique de la voirie urbaine
 https://pcrs.beta.gouv.fr/
 standard PCRS https://cnig.gouv.fr/IMG/documents_wordpress/2017/12/CNIG_RTGE_PCRS_v2.0.pdf 
 
-### Données d'état de la chaussée
-    *   Description : Informations sur l'état de la surface de la route (rugosité, fissures, déformations, etc.)
-    *   Sources : Mesures réalisées par les gestionnaires de voirie (État, Départements, Communes), entreprises spécialisées
-    *   Formats : Tableaux de données, rapports
-    *   Exemples d'utilisation : Planification de l'entretien, évaluation de la sécurité
+### état de la chaussée
+Informations sur l'état de la surface de la route (rugosité, fissures, déformations, etc.)
+Mesures réalisées par les gestionnaires de voirie (État, Départements, Communes), entreprises spécialisées
 
 #### Signalisation
-    *   Description : Emplacement et caractéristiques des panneaux de signalisation (directionnels, de danger, d'indication, etc.)
-    *   Sources : IGN (BD TOPO), OpenStreetMap, bases de données des collectivités
-    *   Formats : Shapefile, GeoJSON, Geopackage
-    *   Exemples d'utilisation : Cartographie, navigation, systèmes d'aide à la conduite
+Description : Emplacement et caractéristiques des panneaux de signalisation (directionnels, de danger, d'indication, etc.)
+Sources : IGN (BD TOPO), OpenStreetMap, bases de données des collectivités
+Formats : Shapefile, GeoJSON, Geopackage
 
-### Données équipements
-    *   Description : Localisation et caractéristiques des équipements tels que les éclairages publics, les bornes de recharge pour véhicules électriques, les arrêts de bus, etc.
-    *   Sources : Bases de données des collectivités, OpenStreetMap
-    *   Formats : Shapefile, GeoJSON, Geopackage
-    *   Exemples d'utilisation : Gestion de l'espace public, planification des infrastructures
+### équipements publics
+Description : Localisation et caractéristiques des équipements tels que les éclairages publics, les bornes de recharge pour véhicules électriques, les arrêts de bus, etc.
+Sources : Bases de données des collectivités, OpenStreetMap
+
 
 ### Données de trafic
-voir page dédiée
-    *   Description : Mesures de trafic (débit, vitesse, taux d'occupation) sur les différents axes routiers.
-    *   Sources : Capteurs de trafic (boucles, caméras), données de localisation des téléphones mobiles, données GPS des véhicules
-    *   Formats : Tableaux de données, flux de données temps réel
-    *   Exemples d'utilisation : Information trafic, optimisation des itinéraires, planification des transports
+voir page dédiée https://cerema.github.io/mobscidat/types_donnees/trafic 
+
 
 ## Accès aux Données
 
 ### open data 
-    *   [data.gouv.fr](https://www.data.gouv.fr/)
-    *   Sites de données ouvertes des collectivités
-    *   IGN
+[data.gouv.fr](https://www.data.gouv.fr/)
+Sites de données ouvertes des collectivités
+IGN
 
-    *   OSM
+OpenStreetMap
     https://wiki.openstreetmap.org/wiki/FR:Voirie 
-    *   Overture Maps
-    disponibles sur le monde entier
+Overture Maps
+
 ### Producteurs de données
     *   TomTom, HERE
 
 ## Outils et Ressources
 
 *   **Outils de visualisation et d'analyse :**
-    *   QGIS
-    *   GeoPandas (Python)
-    *   autres outils statistiques et cartographiques
+QGIS, GeoPandas (Python), outils métier statistiques et cartographiques
 
 *   **Documentation et standards :**
     *   Standards de données géographiques (ISO, OGC)
-    *   Documentation des formats de données
+    *   CNIG : https://cnig.gouv.fr/les-standards-cnig-a18959.html 
 
 ## Contributions
 
