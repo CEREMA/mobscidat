@@ -16,6 +16,10 @@ Cette page recense les ressources utiles sur les données de voirie en France. E
     *   Formats : Shapefile, GeoJSON, Geopackage
     *   Exemples d'utilisation : Cartographie, navigation, analyse de réseau
 
+#### Description surfacique de la voirie urbaine
+https://pcrs.beta.gouv.fr/
+standard PCRS https://cnig.gouv.fr/IMG/documents_wordpress/2017/12/CNIG_RTGE_PCRS_v2.0.pdf 
+
 ### Données d'état de la chaussée
     *   Description : Informations sur l'état de la surface de la route (rugosité, fissures, déformations, etc.)
     *   Sources : Mesures réalisées par les gestionnaires de voirie (État, Départements, Communes), entreprises spécialisées
