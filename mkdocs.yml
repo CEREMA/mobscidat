@@ -74,6 +74,7 @@ markdown_extensions:
   - attr_list
   - def_list
   - footnotes
+  - pymdownx.magiclink
   - md_in_html
   - tables
   - toc:
