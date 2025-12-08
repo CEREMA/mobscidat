@@ -150,8 +150,11 @@ L'ouverture des données dans le cadre européen a largement pour objectif d'am�
 Les données d'usage sont les données mesurées ou historisées d'occupation, rotation, respect et paiement du stationnement.
 
 - Données de disponibilité en temps réel : publiées en principe en poen data dans la cadre du règlement MMTIS (APIs et flux temps réel)
-- Données de transactions : Les données de paiement, abonnements, FPS (forfait post-stationnement)
+- Données de transactions : Les données de paiement, abonnements, FPS (forfait post-stationnement : pour lequel existe un site national https://stationnement.gouv.fr/ )
 - Données de rotation : durées moyennes, taux de rotation selon zones/horaires...
+
+Il serait utile de faire un état des lieux européen.
+A noter qu'une plate forme nationale de paiement a été mise en place au Royaume-Uni : https://www.npp.org.uk/ 
 
 ## Données socio-économiques
 - Coûts et recettes : Données économiques sur le stationnement (revenus, coûts d'exploitation)
