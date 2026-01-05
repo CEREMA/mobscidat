@@ -32,7 +32,10 @@ Cette page recense les ressources utiles sur les données de transport public (t
 - **AGIR Transport" :  association Loi 1901, créée par des élus locaux, qui apporte aux collectivités et aux opérateurs indépendants une expertise complète en matière de transport public et de mobilité. 
   - https://www.agir-transport.org/
   - Centrale d'Achat du Transport Public : https://www.catp.fr/
- 
+
+- **FNAUT** : association des usagers des transport
+  - https://www.fnaut.fr/ avec notamment régulièrement des études publiées
+
 - **ANATEEP" : association nationale pour le transport scolaire
   - https://www.anateep.fr
   - Voir aussi le portail de l'écomobilité scolaire https://mobiscol.org/ 
