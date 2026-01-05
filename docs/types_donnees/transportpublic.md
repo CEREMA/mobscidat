@@ -28,6 +28,14 @@ Cette page recense les ressources utiles sur les données de transport public (t
 
 - **UTPF** : Union des Transports Publics et ferroviaires
   - https://www.utpf-mobilites.fr/
+ 
+- **AGIR Transport" :  association Loi 1901, créée par des élus locaux, qui apporte aux collectivités et aux opérateurs indépendants une expertise complète en matière de transport public et de mobilité. 
+  - https://www.agir-transport.org/
+  - Centrale d'Achat du Transport Public : https://www.catp.fr/
+ 
+- **ANATEEP" : association nationale pour le transport scolaire
+  - https://www.anateep.fr
+  - Voir aussi le portail de l'écomobilité scolaire https://mobiscol.org/ 
 
 ### Normes
 - **Groupes de travail BNTRA/AFNOR** (GT7), miroir des GT européen CEN TC278
