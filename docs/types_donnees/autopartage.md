@@ -15,6 +15,10 @@ https://www.cerema.fr/fr/mots-cles/autopartage
 https://www.francemobilites.fr/mots-cles/autopartage 
 
 ## standards:
+Page de référence de la Fabrique des Mobilités : https://wiki.lafabriquedesmobilites.fr/wiki/Standardisation_de_la_donn%C3%A9e_d%E2%80%99autopartage,_un_%C3%A9tat_des_lieux 
+
+Page de référence du PAN transport : https://doc.transport.data.gouv.fr/type-donnees/velos-en-libre-service/lautopartage 
+
 https://doc.transport.data.gouv.fr/type-donnees/velos-en-libre-service/lautopartage
 GBFS https://gbfs.org/fr/get-started/ 
 Netex : profil autopartage en cours
