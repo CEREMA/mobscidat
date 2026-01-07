@@ -25,7 +25,7 @@ Netex : profil autopartage en cours
 
 https://www.expertises-territoires.fr/jcms/pl1_759628/fr/7/7/25-webinaire-fabmob-standardisation-de-la-donnee-d-autopartage?eventStartDate=1751873400000 
 
-## Types de données 
+## Types de données (à revoir et compléter!)
 
 ### Utilisation des plateformes
 
