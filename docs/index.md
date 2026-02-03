@@ -1,18 +1,39 @@
-# Accueil
-**VERSION DE TRAVAIL** d'un site de partage de ressources utiles sur les données de mobilité, initié par le Cerema dans le cadre du projet MobSciDat Factory
+Ce site a pour objectif d’aider à faire le lien entre les besoins  
+des études de mobilité et les données disponibles  
+(jeux de données, standards, référentiels, ressources documentaires).
 
-On espère aboutir à une version utile d'ici fin 2025.
+Il s’adresse en priorité aux collectivités, bureaux d’études,  
+services de l’État, ainsi qu’aux étudiants et chercheurs.
 
-Le site va largement évoluer dans les mois qui viennent, les contributions sont bienvenues !
-N'hésitez pas à nous contacter pour toute question ou suggestion.
+!!! note
+    **Statut : version bêta.**  
+    Les contenus sont en cours d’enrichissement et peuvent évoluer.
 
-Le centre de ressources comprend les rubriques suivantes :
+## À quoi sert ce site ?
 
-1) Recensement des glossaires
+- Identifier les **données utiles** pour une étude de mobilité
+- Comprendre les **usages et limites** des données
+- Partager une **typologie commune** entre études et données
 
-2) **Types de données de mobilité**
-Proposition de typologie de données, avec une fiche décrivant les principales infos utiles sur les données par métier (transport public, trafic, voirie, stationnement...) :
-Ressources utiles (notamment le PAN transport, rapports du Cerema...), principaux cas d'usage, principaux jeux de données open data, éventuels documents ou tutoriels...
+## Comment commencer ?
 
-3) **Types d'études de mobilité**
-Proposition de typologie des études, cas d'usage des données pour l'analyse et l'étude des mobilités.
+**Je mène une étude de mobilité**  
+→ [Types d’études](type_etudes/type_etudes/)
+
+**Je cherche une donnée ou un standard**  
+→ [Types de données](type_donnees/)
+
+**Je cherche une définition ou un acronyme**  
+→ [Glossaires](glossaires/)
+
+## À propos
+
+Ce site s’inscrit dans le cadre du projet **MobSciDat Factory**,  
+porté par le Cerema, visant à faciliter le partage et  
+la valorisation des données de mobilité.
+
+## Contribuer
+
+Le site est collaboratif.  
+Vous pouvez proposer des ressources, signaler des erreurs  
+ou suggérer des compléments via le dépôt GitHub du projet.
