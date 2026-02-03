@@ -2,9 +2,6 @@ Ce site a pour objectif d’aider à faire le lien entre les besoins
 des études de mobilité et les données disponibles  
 (jeux de données, standards, référentiels, ressources documentaires).
 
-Il s’adresse en priorité aux collectivités, bureaux d’études,  
-services de l’État, ainsi qu’aux étudiants et chercheurs.
-
 !!! note
     **Statut : version bêta.**  
     Les contenus sont en cours d’enrichissement et peuvent évoluer.
