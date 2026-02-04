@@ -151,6 +151,10 @@ Description des équipements, gares, dépôts, véhicules.
 - Parc de véhicules et caractéristiques techniques
 - État du patrimoine
 
+### 8. Données financières
+
+travail exploratoire dans le cadre d'un stage sur les dépenses publiques, à partir des comptes administratifs des collectivités
+https://www.expertises-territoires.fr/jcms/pl1_703553/fr/donnees-de-depenses-publiques-transport/mobilite-territorialisees-rapport-d-exploration-ira-de-lyon 
 
 ## Outils
 
