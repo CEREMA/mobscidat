@@ -1,0 +1,2460 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Centre de ressources sur les données de mobilité - Cerema">
+      
+      
+        <meta name="author" content="Cerema">
+      
+      
+        <link rel="canonical" href="https://cerema.github.io/mobscidat/types_donnees/stationnement/">
+      
+      
+        <link rel="prev" href="../trafic/">
+      
+      
+        <link rel="next" href="../covoiturage/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Données de stationnement - MobSciDat - Ressources Données de Mobilité</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ressources-sur-les-donnees-de-stationnement" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="MobSciDat - Ressources Données de Mobilité" class="md-header__button md-logo" aria-label="MobSciDat - Ressources Données de Mobilité" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MobSciDat - Ressources Données de Mobilité
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Données de stationnement
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/CEREMA/mobscidat" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CEREMA/mobscidat
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MobSciDat - Ressources Données de Mobilité" class="md-nav__button md-logo" aria-label="MobSciDat - Ressources Données de Mobilité" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MobSciDat - Ressources Données de Mobilité
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/CEREMA/mobscidat" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CEREMA/mobscidat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accueil
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mots-clés
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossaires
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Glossaires
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossaire/glossaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossaires
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossaire/donnees_massives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Données massives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Floating car data
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Floating car data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossaire/fcd/fcd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FCD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Types de données
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Types de données
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../types_donnees/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Types de données
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    références générales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openstreetmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenStreetMap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../voirie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    voirie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transportpublic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    transport public
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../velo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    vélo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trafic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    trafic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stationnement
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stationnement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sites-de-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sites de référence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-principaux-types-de-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les principaux types de données
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les principaux types de données">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cas-dusage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cas d'usage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standards-et-modeles-de-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standards et modèles de données
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inventaire-de-loffre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inventaire de l'offre
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inventaire de l&#39;offre">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#en-voirie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        En voirie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aires-de-stationnement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aires de stationnement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aires-de-covoiturage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aires de covoiturage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parcs-en-enclos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parcs en enclos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parcs-en-ouvrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parcs en ouvrage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stationnement-residentiel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stationnement résidentiel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recharge-electrique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        recharge électrique
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#annotation-dimages-de-stationnement-de-surface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        annotation d'images de stationnement de surface
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stationnement-velo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stationnement vélo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aires-de-livraison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aires de livraison
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tarification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tarification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#donnees-socio-economiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Données socio-économiques
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recueil-de-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recueil de données
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../covoiturage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    covoiturage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../autopartage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    autopartage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accessibilite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    accessibilité
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Types d'études
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Types d'études
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Introduction
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/type_etudes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vue d'ensemble
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_general/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    études générales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catégories
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Catégories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/modelisation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modélisation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/planification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/mise_en_oeuvre/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mise en oeuvre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/evaluation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaluation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/observation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Observation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/accompagnement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accompagnement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/recueil_donnees/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recueil de données
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Métiers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Métiers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_TC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    transport collectif et train
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_scolaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    transport scolaire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_PEM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pôles d'échange multimodaux
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_access_soli/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    transports solidaires et accessibles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_voirie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    voirie et l'espace public
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_modes_actifs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    modes actifs, vélo et marche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_trafic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    trafic routier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_mobilite_partagee/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    services de mobilité partagée
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_stationnement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stationnement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_management_mob/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    management de la mobilité
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_accidento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    sécurité routière et accidentologie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_logistique_urbaine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    logistique urbaine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_decarbo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    décarbonation et électrification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../type_etudes/TE_environnement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    environnement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sites-de-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sites de référence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-principaux-types-de-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les principaux types de données
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les principaux types de données">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cas-dusage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cas d'usage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standards-et-modeles-de-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standards et modèles de données
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inventaire-de-loffre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inventaire de l'offre
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inventaire de l&#39;offre">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#en-voirie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        En voirie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aires-de-stationnement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aires de stationnement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aires-de-covoiturage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aires de covoiturage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parcs-en-enclos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parcs en enclos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parcs-en-ouvrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parcs en ouvrage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stationnement-residentiel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stationnement résidentiel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recharge-electrique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        recharge électrique
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#annotation-dimages-de-stationnement-de-surface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        annotation d'images de stationnement de surface
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stationnement-velo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stationnement vélo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aires-de-livraison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aires de livraison
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tarification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tarification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#donnees-socio-economiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Données socio-économiques
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recueil-de-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recueil de données
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../../tags/#tag:stationnement" class="md-tag">stationnement</a>
+      
+    
+  </nav>
+
+
+  
+  
+
+
+<h1 id="ressources-sur-les-donnees-de-stationnement">Ressources sur les données de stationnement<a class="headerlink" href="#ressources-sur-les-donnees-de-stationnement" title="Permanent link">&para;</a></h1>
+<p>Cette page recense les ressources utiles sur les données de stationnement</p>
+<h2 id="sites-de-reference">Sites de référence<a class="headerlink" href="#sites-de-reference" title="Permanent link">&para;</a></h2>
+<p>Il y a en fait peu de ressources sur les données de stationnement proprement dites, on référencera ici donc aussi quelques sites de référence sur le stationnement.</p>
+<ul>
+<li>
+<p>GT AITF <a href="https://www.aitf.fr/groupe-travail/stationnement">https://www.aitf.fr/groupe-travail/stationnement</a></p>
+</li>
+<li>
+<p>Cahiers du stationnement métropolitain, Agence d'urbanisme de Lille, 2024, avec une série de fiches sur les différents types de stationnement : <a href="https://mediatheque.adu-lille-metropole.org/dyn/portal/index.xhtml?aloId=14367&amp;page=alo&amp;req=10">https://mediatheque.adu-lille-metropole.org/dyn/portal/index.xhtml?aloId=14367&amp;page=alo&amp;req=10</a></p>
+</li>
+</ul>
+<p>de manière générale les agences d'urbanisme ont produit de nombreuses publications sur le thème du stationnement : <a href="https://www.fnau.org/fr/?s=stationnement">https://www.fnau.org/fr/?s=stationnement</a></p>
+<ul>
+<li>CEREMA <a href="https://www.cerema.fr/fr/mots-cles/stationnement">https://www.cerema.fr/fr/mots-cles/stationnement</a></li>
+</ul>
+<p>ainsi que les rapports du Cerema sur ce thème, sur <a href="https://doc.cerema.fr/form.aspx?SC=DEFAULT#/Search/(query:(AdvancedQuery:(queryGroups:!((logical:!n,queryClauses:!((index:Title_idx,logical:0,operator:0,otherValue:!n,value:stationnement))))),AdvancedQueryDisplay:'(Titre=stationnement)',FacetFilter:'%7B%22_351%22:%22Mobilit%C3%A9s%22%7D',ForceSearch:!t,InitialSearch:!f,Page:0,PageRange:3,QueryGuid:'1f408ed9-71eb-4c90-9539-ab4e9392c863',ResultSize:10,ScenarioCode:DEFAULT,ScenarioDisplayMode:display-standard,SearchContext:1,SearchGridFieldsShownOnResultsDTO:!(),SearchTerms:'%20stationnement',SortField:DateTRI_sort,SortOrder:0,TemplateParams:(Scenario:'',Scope:Default,Size:!n,Source:'',Support:'',UseCompact:!f),UseSpellChecking:!n),sst:4)) par exemple un [rapport récent (2025) de retour d'expérience sur une méthode de diagnostic rapide du stationnement pour les villes moyennes](https://www.cerema.fr/fr/actualites/expertiser-problematiques-stationnement-mieux-agir">ceremadoc</a>.</p>
+<ul>
+<li>règlementation</li>
+</ul>
+<p><a href="https://www.ecologie.gouv.fr/politiques-publiques/parcs-stationnement">https://www.ecologie.gouv.fr/politiques-publiques/parcs-stationnement</a>   et <a href="https://www.ecologie.gouv.fr/sites/default/files/documents/Guide-parcs-de-stationnement-WEB.pdf">guide parcs de stationnement 2023</a></p>
+<p><a href="https://www.ecologie.gouv.fr/politiques-publiques/laccessibilite-du-stationnement">https://www.ecologie.gouv.fr/politiques-publiques/laccessibilite-du-stationnement</a></p>
+<ul>
+<li>Marchés Publics concernant les données de stationnement</li>
+</ul>
+<p><a href="https://documentsmarches.francemobilites.fr/Search/?text=donn%C3%A9es%20stationnement&amp;f_type=DOCUMENT&amp;r=1">https://documentsmarches.francemobilites.fr/Search/?text=donn%C3%A9es%20stationnement&amp;f_type=DOCUMENT&amp;r=1</a></p>
+<p><a href="https://fr.wikipedia.org/wiki/Stationnement_en_France">https://fr.wikipedia.org/wiki/Stationnement_en_France</a></p>
+<ul>
+<li>FNMS</li>
+</ul>
+<p><a href="https://www.fnms.fr/">https://www.fnms.fr/</a></p>
+<ul>
+<li>European Parking Association</li>
+</ul>
+<p><a href="https://europeanparking.eu/parking-data-essentials/">https://europeanparking.eu/parking-data-essentials/</a></p>
+<p>Les données publiées sur le PAN transport</p>
+<p><a href="https://transport.data.gouv.fr/datasets?q=stationnement">https://transport.data.gouv.fr/datasets?q=stationnement</a> voir aussi <a href="https://doc.transport.data.gouv.fr">la documentation</a> qui décrit le cadre juridique et les standards.</p>
+<h2 id="les-principaux-types-de-donnees">Les principaux types de données<a class="headerlink" href="#les-principaux-types-de-donnees" title="Permanent link">&para;</a></h2>
+<p>L'offre de stationnement est diverse (publique, privée, en voirie, parc ou ouvrage), elle peut être décrite à différents niveaux de détail (description des places individuelles ou pas, avec distinction entre PMR - livraisons - autopartage - places électriques - autocars  - 2 roues…) selon les besoins (gestion de voirie, de patrimoine, urbanisme, service aux usagers, zones de stationnement payant / ZPS, gestion de la carte mobilité inclusion, suivi des obligations règlementaires, suivi des parcs relais P+R, dépose-minute, etc.) donc un référentiel doit en principe intégrer différents objets reliés entre eux (parc, place, etc.). En général la donnée est décrite sous une forme géoréférencée permettant de produire des cartes sur un SIG, avec des données linéaires ou surfaciques, sans qu'il y ait à notre connaissance de format standards pour décrire ces données, ni de modèle de données.</p>
+<h3 id="cas-dusage">Cas d'usage<a class="headerlink" href="#cas-dusage" title="Permanent link">&para;</a></h3>
+<p>Les données de stationnement sont utiles pour divers besoin (voirie, patrimoine, logistique urbaine, gestion du stationnement proprement dite) et sont indispensables pour s'assurer du respect des obligations réglementaires (d'urbanisme notamment) ou le suivi des contrats d'exploitation.</p>
+<h3 id="standards-et-modeles-de-donnees">Standards et modèles de données<a class="headerlink" href="#standards-et-modeles-de-donnees" title="Permanent link">&para;</a></h3>
+<p>Le standard européen APDS (<a href="https://www.allianceforparkingdatastandards.org">https://www.allianceforparkingdatastandards.org</a> avec la documentation technique ici : <a href="https://github.com/parkingdata/spec/tree/master/specs">https://github.com/parkingdata/spec/tree/master/specs</a>) inclut un modèle de données du stationnement assez général qui semble pouvoir prendre en compte une bonne partie (mais à notre connaissance, il est peu implémenté en France?).</p>
+<p>En France, ont été définis un profil d'échange normalisé s'appuyant sur Netex en lien avec le règlement délégué MMTIS, et des schéma de données pour le stationnement vélo, les aires de covoiturage, ainsi que la réglementation des aires de livraison. (cf. plus bas)</p>
+<p>DATEX II : ce standard européen pour l'information routière inclut des modules sur le stationnement (notamment pour les aires de stationnement PL sur autoroutes) <a href="https://datex2.eu/user-domains/parking/">site web Datex2</a></p>
+<p>GBFS pour le stationnement vélo : Pour les vélos en libre-service avec stations</p>
+<p>Il est également très utile de parcourir le wiki d'OpenStreetMap qui possède une grande richesse de description au moyen de simples tags, cf. <a href="https://wiki.openstreetmap.org/wiki/FR:Parking">https://wiki.openstreetmap.org/wiki/FR:Parking</a> , décrits sur ici sur <a href="https://wiki.openstreetmap.org/wiki/Montrouge#Stationnement">l'exemple de Montrouge</a>, et est utilisé par des collectivités comme Montpellier. <a href="https://forum.openstreetmap.fr/t/voies-de-stationnement/7046">Le forum</a> permet de trouver des réponses rapidement.</p>
+<p>Il peut être intéressant aussi de regarder comment le stationnement en voirie est décrit dans le standard américain CDS (voir plus bas).</p>
+<h2 id="inventaire-de-loffre">Inventaire de l'offre<a class="headerlink" href="#inventaire-de-loffre" title="Permanent link">&para;</a></h2>
+<h3 id="en-voirie">En voirie<a class="headerlink" href="#en-voirie" title="Permanent link">&para;</a></h3>
+<p>Distinction entre stationnement toléré et réglementé (avec description des places). Le recensement du stationnement distingue idéalement les différents types de place (PMR, recharge, covoiturage, 2 roues, etc.).</p>
+<p>Il peut être intéressant aussi de regarder comment le stationnement en voirie est décrit dans le standard américain CDS (curb management specification). CDS vise à décrire les trottoirs :
+<a href="https://www.vianova.io/blog/making-sense-of-curb-and-parking-data-standards">https://www.vianova.io/blog/making-sense-of-curb-and-parking-data-standards</a>
+<a href="https://www.openmobilityfoundation.org/about-cds/">https://www.openmobilityfoundation.org/about-cds/</a>
+Jusqu’à récemment, CDS n’était pas utilisé en France à notre connaissance : le projet Interlud+ propose de l’utiliser pour décrire les aires de livraison, et étendre le schéma de données existant (<a href="https://schema.data.gouv.fr/CEREMA/schema-aire-livraison/">https://schema.data.gouv.fr/CEREMA/schema-aire-livraison/</a> ).</p>
+<h3 id="aires-de-stationnement">Aires de stationnement<a class="headerlink" href="#aires-de-stationnement" title="Permanent link">&para;</a></h3>
+<h3 id="aires-de-covoiturage">Aires de covoiturage<a class="headerlink" href="#aires-de-covoiturage" title="Permanent link">&para;</a></h3>
+<p>aires de stationnement PL sur autoroutes : <a href="https://transport.ec.europa.eu/transport-modes/road/parking-areas_en">https://transport.ec.europa.eu/transport-modes/road/parking-areas_en</a></p>
+<p>Le PAN transport maintient une <a href="https://transport.data.gouv.fr/datasets/base-nationale-des-lieux-de-covoiturage">base nationale des lieux de covoiturage</a>, en conformité <a href="https://doc.transport.data.gouv.fr/type-donnees/lieux-de-covoiturage">avec un schéma data gouv</a>.</p>
+<h3 id="parcs-en-enclos">Parcs en enclos<a class="headerlink" href="#parcs-en-enclos" title="Permanent link">&para;</a></h3>
+<h3 id="parcs-en-ouvrage">Parcs en ouvrage<a class="headerlink" href="#parcs-en-ouvrage" title="Permanent link">&para;</a></h3>
+<p>Le groupe de normalisation GT9 au BNTRA de l'AFNOR a produit une spécification de profil d'échange pour l'information aux usagers (en lien avec le règlement européen MMTIS) qui s'appuie sur Netex. Dans le cadre national a été également spécifié un schema data.gouv, complémentaire du profil Netex.</p>
+<p>La Base Nationale des Lieux de Stationnement n'est en revanche plus maintenue par le PAN transport.</p>
+<p><a href="https://norminfo.afnor.org/structure/bntracn-03/transport-public/6316#activite">https://norminfo.afnor.org/structure/bntracn-03/transport-public/6316#activite</a></p>
+<p><a href="https://normes.transport.data.gouv.fr/normes/netex/parkings/">https://normes.transport.data.gouv.fr/normes/netex/parkings/</a></p>
+<p><a href="https://doc.transport.data.gouv.fr/type-donnees/lieux-de-stationnement/stationnement-hors-voirie/normes-et-standard-schema-national-des-lieux-de-stationnement">https://doc.transport.data.gouv.fr/type-donnees/lieux-de-stationnement/stationnement-hors-voirie/normes-et-standard-schema-national-des-lieux-de-stationnement</a></p>
+<p>le profil Netex pour le stationnement en ouvrage : <a href="https://normes.transport.data.gouv.fr/normes/netex/parkings/">https://normes.transport.data.gouv.fr/normes/netex/parkings/</a></p>
+<h3 id="stationnement-residentiel">Stationnement résidentiel<a class="headerlink" href="#stationnement-residentiel" title="Permanent link">&para;</a></h3>
+<ul>
+<li>données foncières : Une étude du Cerema pour la Métropole Européenne de Lille <a href="https://doc.cerema.fr/Default/doc/SYRACUSE/593612/l-etude-du-stationnement-prive-via-les-fichiers-fonciers-sur-la-metropole-europeenne-de-lille">https://doc.cerema.fr/Default/doc/SYRACUSE/593612/l-etude-du-stationnement-prive-via-les-fichiers-fonciers-sur-la-metropole-europeenne-de-lille</a></li>
+</ul>
+<h3 id="recharge-electrique">recharge électrique<a class="headerlink" href="#recharge-electrique" title="Permanent link">&para;</a></h3>
+<h3 id="annotation-dimages-de-stationnement-de-surface">annotation d'images de stationnement de surface<a class="headerlink" href="#annotation-dimages-de-stationnement-de-surface" title="Permanent link">&para;</a></h3>
+<p>Cet article investigue les outils permettant d'annoter des données de stationnement à partir de photos aériennes, qui serviront de jeu de données de référence pour un apprentissage automatique, et propos notamment un processus d'annotation utilisation Qgis. <a href="https://datagistips.hypotheses.org/1218">https://datagistips.hypotheses.org/1218</a></p>
+<h2 id="stationnement-velo">Stationnement vélo<a class="headerlink" href="#stationnement-velo" title="Permanent link">&para;</a></h2>
+<p>Les données décrivant l'offre de stationnement vélos sont essentiellement disponibles sur OSM.</p>
+<p><a href="https://doc.transport.data.gouv.fr/type-donnees/documentation-sur-le-stationnement-cyclable">https://doc.transport.data.gouv.fr/type-donnees/documentation-sur-le-stationnement-cyclable</a></p>
+<p>L'outil géodatamine permet d'extraire les données d'OSM répondait à un schéma data gouv dont le stationnement vélo : <a href="https://geodatamine.fr/">https://geodatamine.fr/</a></p>
+<h2 id="aires-de-livraison">Aires de livraison<a class="headerlink" href="#aires-de-livraison" title="Permanent link">&para;</a></h2>
+<p>Les (arrêtés de circulation relatifs aux aires de livraison) sont décrits dans - arrêtés... (réglementation / aires de livraison</p>
+<p>Le projet CEE Interlud+ comprend un programme Digilog de numérisation des aires de livraison :</p>
+<p><a href="https://www.interlud.green/actualites/digilog-une-avancee-prometteuse-pour-la-logistique-urbaine-durable">https://www.interlud.green/actualites/digilog-une-avancee-prometteuse-pour-la-logistique-urbaine-durable</a></p>
+<p>Un schéma data gouv a été défini pour décrire les arrêtés et les aires (localisés par un point ainsi que par un linéaire ou polygone selon les cas) et les éventuelles bornes de recharge:</p>
+<p><a href="https://schema.data.gouv.fr/CEREMA/schema-aire-livraison/">https://schema.data.gouv.fr/CEREMA/schema-aire-livraison/</a></p>
+<p>Il existe également un schéma pour les arrêtés permanents de transport de marchandises en ville : <a href="https://schema.data.gouv.fr/CEREMA/schema-arrete-circulation-marchandises/">https://schema.data.gouv.fr/CEREMA/schema-arrete-circulation-marchandises/</a></p>
+<p>La startup d'état Dialog a pour mission de numériser les arrêtés de circulation routière et donner accès aux données (dont la réglementation sur les aires de livraison et le transport de marchandises).</p>
+<p><a href="https://dialog.beta.gouv.fr/">https://dialog.beta.gouv.fr/</a></p>
+<h2 id="tarification">Tarification<a class="headerlink" href="#tarification" title="Permanent link">&para;</a></h2>
+<p>Les tarifs et règles de tarification peuvent également être décrites dans un référentiel de stationnement. 
+L'ouverture des données dans le cadre européen a largement pour objectif d'améliorer les services aux usagers via le développement d'un écosystème de services numériques.</p>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<p>Les données d'usage sont les données mesurées ou historisées d'occupation, rotation, respect et paiement du stationnement.</p>
+<ul>
+<li>Données de disponibilité en temps réel : publiées en principe en poen data dans la cadre du règlement MMTIS (APIs et flux temps réel)</li>
+<li>Données de transactions : Les données de paiement, abonnements, FPS (forfait post-stationnement : pour lequel existe un site national <a href="https://stationnement.gouv.fr/">https://stationnement.gouv.fr/</a> )</li>
+<li>Données de rotation : durées moyennes, taux de rotation selon zones/horaires...</li>
+</ul>
+<p>Il serait utile de faire un état des lieux européen.
+A noter qu'une plate forme nationale de paiement a été mise en place au Royaume-Uni : <a href="https://www.npp.org.uk/">https://www.npp.org.uk/</a> </p>
+<h2 id="donnees-socio-economiques">Données socio-économiques<a class="headerlink" href="#donnees-socio-economiques" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Coûts et recettes : Données économiques sur le stationnement (revenus, coûts d'exploitation)</li>
+<li>Enquêtes de comportement : Pratiques des usagers, temps de recherche</li>
+</ul>
+<h2 id="recueil-de-donnees">Recueil de données<a class="headerlink" href="#recueil-de-donnees" title="Permanent link">&para;</a></h2>
+<p>Les collectivités gestionnaires de voirie et AOM sont amenés à compléter régulièrement leurs données concernant le stationnement, au moyen d'enquêtes, et de comptage (utilisant de plus en plus des systèmes automatisés utilisant des prises de vue embarquées, même si pour l'instant l'utilisation des véhicules de verbalisation par LAPI ne semble pas encore possible pour le recueil de données).</p>
+<p>L'utilisation de photos aériennes (PCRS à 5cm) satellitaires (à 20 cm) permet d'identifier les parcs voir les places de stationnement, mais ne semble pas généralisée. L'utilisation de prises de vue au niveau de la voirie (type panoramax) permettrait de compléter la donnée.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/CEREMA/mobscidat" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>

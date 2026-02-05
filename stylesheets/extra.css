@@ -1,0 +1,356 @@
+/* ========================================
+   MOBSCIDAT - Styles personnalisés
+   ======================================== */
+
+/* ========================================
+   VARIABLES PERSONNALISÉES
+   ======================================== */
+:root {
+  --mobscidat-primary: #2196F3;
+  --mobscidat-secondary: #FF9800;
+  --mobscidat-success: #4CAF50;
+  --mobscidat-info: #00BCD4;
+  --mobscidat-warning: #FFC107;
+  --mobscidat-danger: #F44336;
+  
+  --card-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  --card-shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
+  --transition-speed: 0.3s;
+}
+
+/* ========================================
+   PAGE D'ACCUEIL - HERO SECTION
+   ======================================== */
+.md-typeset .hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: var(--card-shadow-hover);
+}
+
+.hero-section h1 {
+  color: white !important;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ========================================
+   CARTES DE NAVIGATION
+   ======================================== */
+.md-typeset .nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.md-typeset .nav-card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  transition: all var(--transition-speed) ease;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.md-typeset .nav-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--mobscidat-primary);
+}
+
+.md-typeset .nav-card-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset .nav-card h3 {
+  margin: 0;
+  color: var(--md-default-fg-color);
+  font-size: 1.4rem;
+}
+
+.md-typeset .nav-card p {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  flex-grow: 1;
+}
+
+.nav-card.glossaire { border-left: 4px solid var(--mobscidat-warning); }
+.nav-card.donnees { border-left: 4px solid var(--mobscidat-primary); }
+.nav-card.etudes { border-left: 4px solid var(--mobscidat-success); }
+
+/* ========================================
+   BADGES ET TAGS
+   ======================================== */
+.md-typeset .badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0.25rem;
+  white-space: nowrap;
+}
+
+.badge.beta {
+  background: var(--mobscidat-warning);
+  color: white;
+}
+
+.badge.open-data {
+  background: var(--mobscidat-success);
+  color: white;
+}
+
+.badge.tutoriel {
+  background: var(--mobscidat-info);
+  color: white;
+}
+
+.badge.documentation {
+  background: var(--mobscidat-primary);
+  color: white;
+}
+
+/* ========================================
+   ENCADRÉS COLORÉS (ADMONITIONS)
+   ======================================== */
+.md-typeset .admonition {
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+}
+
+.md-typeset .admonition.info {
+  border-left: 4px solid var(--mobscidat-info);
+}
+
+.md-typeset .admonition.tip {
+  border-left: 4px solid var(--mobscidat-success);
+}
+
+.md-typeset .admonition.warning {
+  border-left: 4px solid var(--mobscidat-warning);
+}
+
+.md-typeset .admonition.danger {
+  border-left: 4px solid var(--mobscidat-danger);
+}
+
+/* ========================================
+   TABLEAUX AMÉLIORÉS
+   ======================================== */
+.md-typeset table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+.md-typeset table thead {
+  background: linear-gradient(135deg, var(--mobscidat-primary) 0%, #1976D2 100%);
+}
+
+.md-typeset table thead th {
+  color: white !important;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.md-typeset table tbody tr {
+  transition: background var(--transition-speed) ease;
+}
+
+.md-typeset table tbody tr:hover {
+  background: var(--md-default-fg-color--lightest);
+}
+
+/* ========================================
+   BOUTONS PERSONNALISÉS
+   ======================================== */
+.md-typeset .button-primary {
+  background: linear-gradient(135deg, var(--mobscidat-primary) 0%, #1976D2 100%);
+  color: white !important;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: all var(--transition-speed) ease;
+  box-shadow: var(--card-shadow);
+}
+
+.md-typeset .button-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.md-typeset .button-secondary {
+  background: transparent;
+  color: var(--mobscidat-primary) !important;
+  border: 2px solid var(--mobscidat-primary);
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: all var(--transition-speed) ease;
+}
+
+.md-typeset .button-secondary:hover {
+  background: var(--mobscidat-primary);
+  color: white !important;
+}
+
+/* ========================================
+   TYPOGRAPHIE AMÉLIORÉE
+   ======================================== */
+.md-typeset h1 {
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--mobscidat-primary) 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.md-typeset h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--mobscidat-primary);
+  margin-top: 2rem;
+}
+
+/* ========================================
+   BANNIÈRE VERSION DE TRAVAIL
+   ======================================== */
+.md-banner {
+  background: linear-gradient(90deg, var(--mobscidat-warning) 0%, #F57C00 100%);
+  color: white !important;
+}
+
+.md-banner__inner {
+  font-weight: 600;
+}
+
+/* ========================================
+   FOOTER PERSONNALISÉ
+   ======================================== */
+.md-footer {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+.md-footer-meta {
+  background: rgba(0,0,0,0.2);
+}
+
+/* ========================================
+   NAVIGATION TABS
+   ======================================== */
+.md-tabs {
+  background: linear-gradient(135deg, var(--mobscidat-primary) 0%, #1976D2 100%);
+}
+
+.md-tabs__link--active {
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* ========================================
+   SEARCH BAR
+   ======================================== */
+.md-search__form {
+  border-radius: 25px;
+  box-shadow: var(--card-shadow);
+}
+
+.md-search__input {
+  border-radius: 25px;
+}
+
+/* ========================================
+   CODE BLOCKS
+   ======================================== */
+.md-typeset pre {
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+}
+
+.md-typeset code {
+  border-radius: 4px;
+}
+
+/* ========================================
+   GRID LAYOUT POUR CONTENU
+   ======================================== */
+.md-typeset .grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.md-typeset .grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+@media screen and (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+  }
+  
+  .md-typeset .nav-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.md-content {
+  animation: fadeInUp 0.5s ease;
+}
+
+/* ========================================
+   DARK MODE ADJUSTMENTS
+   ======================================== */
+[data-md-color-scheme="slate"] .nav-card {
+  background: var(--md-code-bg-color);
+}
+
+[data-md-color-scheme="slate"] .hero-section {
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+}
