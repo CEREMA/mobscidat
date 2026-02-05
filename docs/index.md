@@ -1,38 +1,48 @@
-# Accueil
+# MobSciDat – Centre de ressources sur les données de mobilité
 
-Ce site est une **version de travail** d’un centre de ressources sur les données de mobilité,  
-initié par le Cerema dans le cadre du projet **MobSciDat Factory**.
+Ce site est un centre de ressources structuré dédié aux données de mobilité
+disponibles en France. Il a pour objectif de partager des jeux de données,
+des référentiels et des cas d’usage.
 
-> **Statut**  
-> Le site est en cours de construction et sera enrichi progressivement.
+Il offre une vision d’ensemble des types de données de mobilité et des types
+d’études associées, avec des ressources utiles pour l’analyse, la planification
+et l’exploitation des mobilités.
 
-## Objectif du site
+La démarche s’appuie sur les retours des acteurs du secteur et vise à identifier
+les verrous techniques, juridiques et organisationnels, ainsi que les leviers
+de progrès à court terme.
 
-L’objectif est de partager des ressources utiles sur les données de mobilité :
-- jeux de données
-- standards et référentiels
-- documents méthodologiques
-- retours d’expérience et cas d’usage
+Ce travail est porté par le Cerema dans le cadre du projet **MobSciDat Factory**.
 
-## Contenu du centre de ressources
+> **Statut : version bêta.**  
+> site en cours de construction – Les contenus sont en cours d’enrichissement et peuvent évoluer.
 
-Le site est organisé autour des rubriques suivantes :
+## Rubriques
 
-### Types de données de mobilité
-Proposition de typologie des données, avec pour chaque type :
-- une description des informations disponibles
-- des ressources de référence (rapports, standards, guides)
-- des exemples de jeux de données open data
-- des cas d’usage
+Le centre de ressources comprend les rubriques suivantes :
 
-### Types d’études de mobilité
-Proposition de typologie des études de mobilité et des usages des données associées  
+### [Recensement des glossaires](glossaires/)
+
+### [Types de données de mobilité](types_donnees/types_donnees/)
+Proposition de typologie de données, avec une fiche décrivant les principales
+informations utiles sur les données par métier  
+(transport public, trafic, voirie, stationnement...) :  
+ressources utiles (notamment le PAN transport, rapports du Cerema...),
+principaux cas d’usage, principaux jeux de données open data,
+éventuels documents ou tutoriels.
+
+### [Types d’études de mobilité](type_etudes/type_etudes/)
+Proposition de typologie des études et des cas d’usage des données
 pour l’analyse et l’étude des mobilités.
 
-### Glossaires
-Recensement de glossaires et de définitions liés aux données et aux études de mobilité.
+## À propos
 
-## Contributions
+**MobSciDat Factory** est un projet de recherche consacré aux données de mobilité.
+Il vise à structurer, outiller et expérimenter des méthodes et des dispositifs
+favorisant la collecte, le partage et la valorisation de ces données,
+en lien étroit avec les besoins des acteurs du secteur.
 
-Le site est amené à évoluer dans les mois à venir.  
-Les contributions et suggestions sont bienvenues.
+Le projet s’inscrit dans le cadre du  
+**PEPR Mobilités et Décarbonation (MobiDec)**.
+
+https://pepr-mobidec.fr/
