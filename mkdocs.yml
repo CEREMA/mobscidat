@@ -13,7 +13,13 @@ edit_uri: edit/main/docs/
 
 # Configuration du thème
 theme:
-  name: readthedocs
+  name: material
+  language: fr
+  features:
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    
 # Extensions Markdown
 markdown_extensions:
   # Python Markdown
