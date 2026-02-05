@@ -13,59 +13,7 @@ edit_uri: edit/main/docs/
 
 # Configuration du thème
 theme:
-  name: material
-  language: fr
-  logo: assets/msdf.png
-  
-  # Palette de couleurs
-  palette:
-    # Mode clair
-    - scheme: default
-      primary: blue
-      accent: orange
-      toggle:
-        icon: material/brightness-7
-        name: Passer en mode sombre
-    
-    # Mode sombre
-    - scheme: slate
-      primary: blue
-      accent: orange
-      toggle:
-        icon: material/brightness-4
-        name: Passer en mode clair
-  
-  # Polices
-  font:
-    text: Roboto
-    code: Roboto Mono
-  
-  # Icônes et logo
-  icon:
-    repo: fontawesome/brands/github
-    edit: material/pencil
-    view: material/eye
-  
-  # Fonctionnalités
-  features:
-    - navigation.instant        # Chargement instantané
-    - navigation.tracking       # Suivi d'URL
-    - navigation.tabs           # Onglets de navigation
-    - navigation.tabs.sticky    # Onglets fixes
-    - navigation.sections       # Sections dans la navigation
-    - navigation.expand         # Expansion automatique
-    - navigation.top            # Bouton retour en haut
-    - navigation.footer         # Footer de navigation
-    - search.suggest            # Suggestions de recherche
-    - search.highlight          # Surlignage des résultats
-    - search.share              # Partage de recherche
-    - toc.follow                # Suivi de la table des matières
-    - content.code.copy         # Copie de code
-    - content.action.edit       # Bouton d'édition
-    - content.action.view       # Bouton de vue
-    - content.tabs.link         # Liens entre onglets
-    - announce.dismiss          # Bannières dismissibles
-
+  name: readthedocs
 # Extensions Markdown
 markdown_extensions:
   # Python Markdown
