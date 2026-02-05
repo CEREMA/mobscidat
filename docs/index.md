@@ -46,3 +46,8 @@ Le projet s’inscrit dans le cadre du
 **PEPR Mobilités et Décarbonation (MobiDec)**.
 
 https://pepr-mobidec.fr/
+
+## Nous contacter
+
+Les contributions sont bienvenues !  
+N'hésitez pas à nous contacter pour toute question ou suggestion.
