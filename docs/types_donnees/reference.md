@@ -11,6 +11,7 @@ Cette page recense les ressources utiles sur les données de référence utile p
 - Répertoire des informations publiques du ministère de l'écologie : https://www.ecologie.gouv.fr/repertoire-informations-publiques 
 - Le catalogue des données pour la transition écologique  : https://ecologie.data.gouv.fr/
 - Catalogue data.gouv https://guides.data.gouv.fr/
+il est intéressant de noter que **data.gouv a mis en place un serveur MCP** (https://github.com/datagouv/datagouv-mcp) qui permet d'interroger les 73k ressources du portail depuis un client MCP tels que les principaux LLM (chatgpt, claude, mistral...), et que la société FLI a publié un code open source d'utilisation de ce serveur MCP pour qualifier le catalogue data gouv (https://github.com/FLI-GCT/FlowDataGouv/blob/master/docs/plan-mcp-game-changer.md ) utilisable directement dans un démonstrateur FlowDataGouv qui facilite grandement la recherche de données métier donc les données de mobilité : https://demo-fli.fr/explore?q=stationnement&sort=relevance 
 - et notamment à propos du moissonnage de catalogue de données : https://guides.data.gouv.fr/guide-data.gouv.fr/moissonnage/les-differents-types-de-moissonneurs
 https://doc.data.gouv.fr/moissonnage/dcat/
 
