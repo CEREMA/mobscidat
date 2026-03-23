@@ -10,3 +10,5 @@ Cette rubrique recense quelques glossaires, l'intention n'étant pas de produire
 
 Le [ITS mobility data dictionary](https://napcore.eu/its-mobility-data-dictionary/) du projet NAPCORE définit les principaux éléments de données mentionnés dans la directive européenne IT et ses règlements délégués (RTTI, MMTIS...).
 Le dictionnaire est mis à jour ici : https://github.com/NAPCORE/Data-dictionary/ 
+
+Dans le domaine de la route, on peut citer le dictionnaire routier de l'AIPCR : https://www.piarc.org/fr/activites/Dictionnaire-Routier-Terminologie-Transport-Routier 
