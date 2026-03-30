@@ -26,6 +26,11 @@ toute la documentation de la communauté francophone est sur le wiki:
 
 DataSud.fr propose une extraction quotidienne des données OSM, par thématiques métiers, dont pour Mobilité/Transport: Transport par câble, Aéroport, Aménagement cyclable, Routes, Mobilité maritime, Parc relais, Transport public, Voies ferrées, Remontées mécaniques, Itinéraires, Itinéraire cyclable : [https://www.datasud.fr/portal/collections/osm_flux](https://www.datasud.fr/portal/collections/osm_flux)
 
+### points d'intérêt et routes
+**GéoDataMine** facilite l'extraction de données thématiques depuis OpenStreetMap, sous la forme de fichiers tableurs ou géographiques. Il est simple de participer, mais pas si facile de télécharger des données d'une thématique spécifique sur son territoire. D'où cet assistant très simple ! Les données sont actualisées quotidiennement, et rendues disponibles aux formats CSV, GeoJSON, XSLX et Shapefile. Elles sont rendues compatibles avec les schémas de données nationaux lorsqu'ils existent, sinon selon les conventions d'OpenStreetMap.
+
+https://geodatamine.fr/ 
+
 #### vélo
 La communauté Vélo utilise et contribue beaucoup à OSM comme source de données. Le PAN transport.data.gouv.fr et l'association Vélo & Territoires ont travaillé sur des schéma de données, notammant source principale :
 
