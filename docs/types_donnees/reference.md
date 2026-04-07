@@ -25,14 +25,15 @@ https://doc.data.gouv.fr/moissonnage/dcat/
 Mobilités professionnelles en 2022 : déplacements domicile - lieu de travail Recensement de la population - Base flux de mobilité
 https://www.insee.fr/fr/statistiques/8582949 
 Cette donnée mise à jour chaque année couvre la France entière et a fait l'objet de nombreuses réutilisations : 
+
 - Le tableau de bord des mobilités durables : https://mobilite-durable-tdb.din.developpement-durable.gouv.fr/accueil/ 
-- Terristory : https://terristory.fr/auvergne-rhone-alpes/?zone=epci&maille=epci&zone_id=200046977&nom_territoire=M%C3%A9tropole%20de%20Lyon
+- Terristory : https://terristory.fr/auvergne-rhone-alpes/?zone=epci&maille=epci&zone_id=200046977&nom_territoire=M%C3%A9tropole%20de%20Lyon 
 - https://diagnostic-mobilite.fr/app/ qui permet de visualiser les navettes Domicile Travail et Domicile Etudes et d'autres motifs, ainsi qu'une vision du territoire selon plusieurs paramètres intéressants
-- la plateforme KITE (https://kite.tellae.fr) permet de visualiser et explorer les données de mobilité INSEE. https://tellae.fr/#/blog/fr/kite_flows_mobpro_mobsco (après avoir sauvegardé les données dans votre projet, vous pouvez ensuite les récupérer dans QGIS avec le plugin dédié. https://plugins.qgis.org/plugins/tellae/ )
--  https://mobpro-carbone.com/ bilan carbone des déplacements Domicile-Travail et  récupérer les données sources ; uniquement en Ile de France
--  dataviz plutôt ciblée vélo : https://public.tableau.com/app/profile/fluxpat3731 
-- dataviz France entière plutôt ciblée voiture : https://lafluent.fr/demo/ 
-- MobPro GES pour l'évaluation des émissions de GES dues aux déplacement domicile-travail (Cerema, https://hal.science/hal-05195597 ) qui s'inscrit plus largement sur une [boite à outils autour de la mobilité en zone peu dense](https://www.cerema.fr/fr/actualites/connaitre-mobilite-zone-peu-dense-quels-outils-quelles).
+- la plateforme KITE (https://kite.tellae.fr) permet de visualiser et explorer les données de mobilité INSEE. https://tellae.fr/#/blog/fr/kite_flows_mobpro_mobsco (après avoir sauvegardé les données dans votre projet, vous pouvez ensuite les récupérer dans QGIS avec le plugin dédié. https://plugins.qgis.org/plugins/tellae/ ) 
+- https://mobpro-carbone.com/ bilan carbone des déplacements Domicile-Travail et  récupérer les données sources ; uniquement en Ile de France 
+- cette dataviz plutôt ciblée vélo : https://public.tableau.com/app/profile/fluxpat3731  
+- cette dataviz France entière plutôt ciblée voiture : https://lafluent.fr/demo/  
+- l'outil du Cerema MobProGES pour l'évaluation des émissions de GES dues aux déplacement domicile-travail (https://hal.science/hal-05195597 ) qui s'inscrit plus largement sur une [boite à outils autour de la mobilité en zone peu dense](https://www.cerema.fr/fr/actualites/connaitre-mobilite-zone-peu-dense-quels-outils-quelles).
  
 Rapport du Cerema présentant les principales sources de données et les méthodes de calage pour la modélisation des déplacements :
 https://doc.cerema.fr/Default/doc/SYRACUSE/593732/modelisation-de-la-demande-de-deplacements-donnees-d-entree-et-de-calage-connaissance-des-sources-et 
