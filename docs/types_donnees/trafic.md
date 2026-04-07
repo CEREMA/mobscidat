@@ -27,6 +27,12 @@ Ce site recense beaucoup de ressources : (https://trafic-routier.data.cerema.fr/
 
 *   **Comptages routiers : comptages permanents, temporaires, ponctuels**
     *   Description : Mesures de trafic sur des points spécifiques (stations de comptage).
+ 
+*   **Floating Car Data**
+    *   Sources de données : https://grist.numerique.gouv.fr/o/mobscidat/kEzvBGMZkSzz/tableaux-donnees-de-mobilite/p/5
+    *   Utilisation principale : temps de parcours et vitesse en temps différé et historique, mais aussi estimation d'origines destinations (et "chevelus"), ainsi que capacité à estimer les flux quand croisés avec des données de comptage ; par ailleurs les Extended FCD (XFCD) peuvent fournir des données complémentaires sur les événements déclenchés par les équipements du véhicules (par ex. freinage d'urgence)
+    *   Webinaire 2025 : https://www.cerema.fr/fr/actualites/donnees-fcd-floating-data-maitriser-trafic-retour-rendez
+    *   Article plus large sur les données "massives" (FCD, FMD, SDK...) https://www.cerema.fr/fr/actualites/apport-donnees-massives-connaissance-mobilites    
 
 
 *   **Comptages PL :**
@@ -34,9 +40,11 @@ Ce site recense beaucoup de ressources : (https://trafic-routier.data.cerema.fr/
 - https://www.cerema.fr/fr/mots-cles/poids-lourd 
 
 *   **Enquêtes OD routières:**
-https://www.cerema.fr/fr/actualites/standard-enquetes-circulation 
+https://www.cerema.fr/fr/actualites/standard-enquetes-circulation
+https://www.cerema.fr/fr/actualites/connaitre-mobilites-travers-donnees-origine-destination 
 
 *   **Comptages modes actifs:**
+voir page vélo : https://cerema.github.io/mobscidat/types_donnees/velo/#usage-du-velo
 
 
 ## Outils et Ressources
