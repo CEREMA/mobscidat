@@ -33,7 +33,8 @@ Cette donnée mise à jour chaque année couvre la France entière et a fait l'o
 - https://mobpro-carbone.com/ bilan carbone des déplacements Domicile-Travail et  récupérer les données sources ; uniquement en Ile de France 
 - cette dataviz plutôt ciblée vélo : https://public.tableau.com/app/profile/fluxpat3731  
 - cette dataviz France entière plutôt ciblée voiture : https://lafluent.fr/demo/  
-- l'outil du Cerema MobProGES pour l'évaluation des émissions de GES dues aux déplacement domicile-travail (https://hal.science/hal-05195597 ) qui s'inscrit plus largement sur une [boite à outils autour de la mobilité en zone peu dense](https://www.cerema.fr/fr/actualites/connaitre-mobilite-zone-peu-dense-quels-outils-quelles).
+- l'outil du Cerema MobProGES pour l'évaluation des émissions de GES dues aux déplacement domicile-travail (https://hal.science/hal-05195597 ) qui s'inscrit plus largement sur une [boite à outils autour de la mobilité en zone peu dense](https://www.cerema.fr/fr/actualites/connaitre-mobilite-zone-peu-dense-quels-outils-quelles)
+- le Cerema a également développé un outil open source permettant de télécharger dans un fichier les données MobPro ou MobSco entre communes, groupes de communes, et EPCI, le fichier pouvant ensuite être utilisé dans QGIS pour produire sa carte personnalisée.  https://cerema-med.shinyapps.io/mobauto/ 
 
 ## Méthodes
 Rapport du Cerema présentant les principales sources de données et les méthodes de calage pour la modélisation des déplacements :
