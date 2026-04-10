@@ -103,7 +103,7 @@ nav:
       - glossaire/glossaire.md
   - Types de données:
       - types_donnees/types_donnees.md
-      - références générales  : types_donnees/reference.md
+      - données de référence  : types_donnees/reference.md
       - OpenStreetMap : types_donnees/openstreetmap.md
       - voirie : types_donnees/voirie.md
       - transport public : types_donnees/transportpublic.md
