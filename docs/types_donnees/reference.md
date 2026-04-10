@@ -21,7 +21,7 @@ https://doc.data.gouv.fr/moissonnage/dcat/
  https://www.insee.fr/fr/statistiques?categorie=1 
  https://statistiques-locales.insee.fr/#c=home 
 
-#### recensement de la population et mobilités profesionnelles
+#### recensement de la population et mobilités professionnelles/scolaires
 Mobilités professionnelles en 2022 : déplacements domicile - lieu de travail Recensement de la population - Base flux de mobilité
 https://www.insee.fr/fr/statistiques/8582949 
 Cette donnée mise à jour chaque année couvre la France entière et a fait l'objet de nombreuses réutilisations : 
