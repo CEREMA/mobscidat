@@ -34,6 +34,7 @@ Cette donnée mise à jour chaque année couvre la France entière et a fait l'o
 - cette dataviz plutôt ciblée vélo : https://public.tableau.com/app/profile/fluxpat3731  
 - cette dataviz France entière plutôt ciblée voiture : https://lafluent.fr/demo/  
 - l'outil du Cerema MobProGES pour l'évaluation des émissions de GES dues aux déplacement domicile-travail (https://hal.science/hal-05195597 ) qui s'inscrit plus largement sur une [boite à outils autour de la mobilité en zone peu dense](https://www.cerema.fr/fr/actualites/connaitre-mobilite-zone-peu-dense-quels-outils-quelles)
+- le plugin QGis MobilityAreas qui permet d'afficher des origines-destinations et ainsi d'identifier les bassins de déplacements : https://plugins.qgis.org/plugins/mobilityareas/ 
 - le Cerema a également développé un outil open source permettant de télécharger dans un fichier les données MobPro ou MobSco entre communes, groupes de communes, et EPCI, le fichier pouvant ensuite être utilisé dans QGIS pour produire sa carte personnalisée.  https://cerema-med.shinyapps.io/mobauto/ 
 
 ## Méthodes
