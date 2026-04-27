@@ -104,6 +104,7 @@ nav:
   - Types de données:
       - types_donnees/types_donnees.md
       - données de référence  : types_donnees/reference.md
+      - enquêtes : types_donnees/enquetes.md
       - OpenStreetMap : types_donnees/openstreetmap.md
       - voirie : types_donnees/voirie.md
       - transport public : types_donnees/transportpublic.md
