@@ -26,7 +26,7 @@ Mobilités professionnelles en 2022 : déplacements domicile - lieu de travail R
 https://www.insee.fr/fr/statistiques/8582949 
 Cette donnée mise à jour chaque année couvre la France entière et a fait l'objet de nombreuses réutilisations : 
 
-- Le tableau de bord des mobilités durables : https://mobilite-durable-tdb.din.developpement-durable.gouv.fr/accueil/ 
+- Le tableau de bord des mobilités durables : https://mobilites-durables.transports.gouv.fr/indicateurs/deplacements-domicile-travail/ 
 - Terristory : https://terristory.fr/auvergne-rhone-alpes/?zone=epci&maille=epci&zone_id=200046977&nom_territoire=M%C3%A9tropole%20de%20Lyon 
 - https://diagnostic-mobilite.fr/app/ qui permet de visualiser les navettes Domicile Travail et Domicile Etudes et d'autres motifs, ainsi qu'une vision du territoire selon plusieurs paramètres intéressants
 - la plateforme KITE (https://kite.tellae.fr) permet de visualiser et explorer les données de mobilité INSEE. https://tellae.fr/#/blog/fr/kite_flows_mobpro_mobsco (après avoir sauvegardé les données dans votre projet, vous pouvez ensuite les récupérer dans QGIS avec le plugin dédié. https://plugins.qgis.org/plugins/tellae/ ) 
