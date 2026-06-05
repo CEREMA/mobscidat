@@ -1,28 +1,14 @@
 # MobSciDat – Centre de ressources sur les données de mobilité
 
-Ce site a pour objectif de partager des ressources utiles à propos des données
-de mobilité en France.
+Ce site a pour objectif de partager des ressources utiles à propos des données de mobilité en France.
 
-Il offre une vision d’ensemble des types de données de mobilité et des types
-d’études associées.
+Il offre une vision d’ensemble des types de données de mobilité et des types d’études associées.
 
 Ce travail est porté par le Cerema dans le cadre du projet [**MobSci-Dat Factory**](https://project.inria.fr/mobscidatfactory/).
 
-> **Statut : version bêta.**  
+> **Version bêta.**  
 > site en cours de construction – les contenus sont en cours d’enrichissement et peuvent évoluer.
 
-## Rubriques
-
-Le centre de ressources comprend les rubriques suivantes :
-
-### [Recensement des glossaires](glossaires/)
-
-### [Types de données de mobilité](types_donnees/types_donnees/)
-Proposition de typologie de données, avec une fiche décrivant les principales informations utiles sur les données par "métier" (transport public, trafic, voirie, stationnement...) :  
-
-### [Types d’études de mobilité](type_etudes/type_etudes/)
-Proposition de typologie des études et des cas d’usage des données
-pour l’analyse et l’étude des mobilités.
 
 ## À propos
 
