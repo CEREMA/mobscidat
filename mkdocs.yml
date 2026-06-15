@@ -100,7 +100,6 @@ nav:
   - Accueil: index.md
 #  - Mots-clés: tags.md
   - Types de données:
-      - types_donnees/types_donnees.md
       - données de référence  : types_donnees/reference.md
       - enquêtes : types_donnees/enquetes.md
       - OpenStreetMap : types_donnees/openstreetmap.md
