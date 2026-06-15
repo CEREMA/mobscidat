@@ -1,8 +1,8 @@
-# MobSciDat – Centre de ressources sur les données de mobilité
+# MobSciDat – Liens utiles sur les données de mobilité
 
 Ce site a pour objectif de partager des ressources utiles à propos des données de mobilité en France.
 
-Il offre une vision d’ensemble des types de données de mobilité et des types d’études associées.
+Il offre une vision d’ensemble des types de données de mobilité et des types d’études associées, avec des pages thématiques fournissant infos et références concernant les principaux types de données utilisées dans les études.
 
 Ce travail est porté par le Cerema dans le cadre du projet [**MobSci-Dat Factory**](https://project.inria.fr/mobscidatfactory/).
 
@@ -18,6 +18,7 @@ Il vise à structurer, outiller et expérimenter des méthodes et des dispositif
 Le projet s’inscrit dans le cadre du [**PEPR Mobilités et Décarbonation (MobiDec)**](https://pepr-mobidec.fr/).
 
 
-## Les contributions sont bienvenues !  
+## Les contributions sont bienvenues ! 
+Vous pouvez nous signaler de nouvelles données, de nouveaux liens utiles, proposer des mises à jour ou ajouter par exemple des tutoriels.
 
 N'hésitez pas à nous faire part de toute question ou [suggestion](https://github.com/CEREMA/mobscidat/issues), merci.
