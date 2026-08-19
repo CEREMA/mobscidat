@@ -5,6 +5,12 @@ tags:
 ---
 
 # Ressources sur les enquêtes de mobilité
+## enquête nationale (EMP)
+https://www.statistiques.developpement-durable.gouv.fr/enquete-sur-la-mobilite-des-personnes-2026-2027  
+https://www.statistiques.developpement-durable.gouv.fr/mobilite-des-personnes 
+https://www.cnis.fr/enquetes/mobilite-des-personnes/#2018-2019
+https://www.data.gouv.fr/datasets/donnees-detaillees-de-lenquete-mobilite-des-personnes-2018-2019 
+
 ## enquêtes de mobilité locale certifiée Cerema (EMC2)
 Points-clés:
 
@@ -27,4 +33,7 @@ liens utiles:
 - Lien vers l'actu EMC² : https://www.cerema.fr/fr/activites/mobilites/connaissance-modelisation-evaluation-mobilite/enquetes-mobilite-emc2
 - Lien vers les exploitations standards des enquêtes : https://www.data.gouv.fr/datasets/search?q=emc%C2%B2
 - https://www.data.gouv.fr/reuses/openemc2-beta-resultats-detailles-des-emc2
+
+  ## enquête globale transport en IDF
+  https://omnil.fr/enquete-globale-transport 
 
