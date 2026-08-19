@@ -111,5 +111,6 @@ nav:
       - covoiturage : types_donnees/covoiturage.md
       - autopartage : types_donnees/autopartage.md
       - accessibilité : types_donnees/accessibilite.md
+      - fret et logistique : types_donnees/marchandises.md
   - Types d'études: type_etudes/type_etudes.md
   - Glossaires: glossaire/glossaire.md
