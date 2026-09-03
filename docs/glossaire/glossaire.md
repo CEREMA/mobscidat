@@ -13,6 +13,8 @@ Le dictionnaire est mis à jour ici : https://github.com/NAPCORE/Data-dictionary
 
 Dans le domaine de la route, on peut citer le dictionnaire routier de l'AIPCR : https://www.piarc.org/fr/activites/Dictionnaire-Routier-Terminologie-Transport-Routier 
 
+Dans le domaine de la Sécurité Routière et de l'accidentologie :  https://www.onisr.securite-routiere.gouv.fr//glossaire 
+
 Il est intéressant de noter aussi qu'il existe une commission transport de terminologie : https://www.culture.fr/franceterme/Resultats-de-recherche?q=&domaine=23 
 
 Nous listons ci-dessous les principaux sigles d'organisation et sigles techniques utilisés :
