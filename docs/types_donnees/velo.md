@@ -10,6 +10,8 @@ Cette page recense les ressources utiles sur les données relatives au vélo. Vo
 
 ## Vue d’ensemble
 
+Le réseau Vélo et Marche a publié un dossier très complet sur les différents types de données, et décrivant ses outils : ["les données au service des politiques vélo et marche"](https://reseau-velo-marche.org/app/uploads/2026/09/dossier-observation-maquette_final-1.pdf) 
+
 Les atlas régionaux, développés par Vélo & territoires donnent une vision d'ensemble de la situation du vélo par région, on y retouve des indicateurs sur 6 thématiques (part modale, véloroutes, fréquentations, accueil vélo, stationnement et aménagements) :
 [https://www.velo-territoires.org/observatoires/donnees-velo/atlas-regionaux/](https://www.velo-territoires.org/observatoires/donnees-velo/atlas-regionaux/)
 
