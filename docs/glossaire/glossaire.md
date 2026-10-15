@@ -1,8 +1,12 @@
 ---
-title: Glossaires
+title: Glossaires, listes de données et vocabulaires
 ---
 
 Avant même de produire, utiliser ou échanger des données, il est essentiel de partager un même vocabulaire.
+
+On peut distinguer 3 types de documents : des glossaires et dictionnaires, destinés aux humains, et des vocabulaires ou ontologies, destinées aux machines et associées à la standardisation, enfin des liste des types de données, liées à des règlementations. Enfin, nous listons ici quelques sigles et acronymes.
+
+## 1. glossaires
 De nombreux glossaires ont été publiés dans le domaine de la mobilité et des transports, certains pour, d'autres pas.
 Cette rubrique recense quelques glossaires, l'intention n'étant pas de produire un nouveau dictionnaire, il y a déjà wikipedia et [son portail des transports](https://fr.wikipedia.org/wiki/Portail:Transports).
 
@@ -21,9 +25,27 @@ Nous listons ci-dessous les principaux sigles d'organisation et sigles technique
 ### Glossaire des sigles — RANDPE « Mieux se déplacer / Marchandises »
 *Source : RANDPE - se deplacer - produire / marchandises (Référentiel d'Actions Numérique et Données pour la Planification Écologique, SGPE)*
 
----
+## 2. vocabulaires et ontologies
 
-#### Sigles d'organismes et d'organisations
+MobilityDCAT (lié à la mise en oeuvre du règlement MMTIS, pour le catalogage des données ) : https://w3id.org/mobilitydcat-ap/mobility-theme 
+
+Datex : norme européenne pour l'information routière, comprend un dictionnaire de données : https://datex2.eu/ 
+
+Netex : norme européenne pour l'information sur le transport public et les services de mobilité, s'appuie sur un modèle de données commun Transmodel qui comprend un dictionnaire. https://transmodel-cen.eu/index.php/netex/ . Voir aussi https://normes.transport.data.gouv.fr/ 
+
+Il existe aussi des travaux actifs dans la logistique (à compléter).
+
+## 3. liste de types de données
+
+Dans la directive ITS, il existe plusieurs règlements délégués, les deux principaux portent sur l'info routière et l'info multimodale :
+
+- règlement RTTI : https://www.francemobilites.fr/evenements/seminaire-donnees-circulation-et-securite-routiere-transposition-la-directive-its 
+
+- réglement MMTIS https://eur-lex.europa.eu/eli/reg_del/2017/1926/oj?locale=fr voir aussi https://doc.transport.data.gouv.fr/le-point-d-acces-national/cadre-juridique 
+
+D'autres réglementations françaises et européennes comprennent des annexes , par ex. en matière de contrôle du transport routier (à compléter).
+
+## 4. Sigles d'organismes et d'organisations
 
 | Sigle | Signification |
 |---|---|
