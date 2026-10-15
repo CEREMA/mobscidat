@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Indicateur de Congestion | CEREMA</title>
+    <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet">
+
+    <style>
+        body { margin: 10; padding: 0; }
+        #map { width: 100vw; height: 90vh; }
+    </style>
+</head>
+
+<body>
+    <div style="position:fixed; top:10px; left:50%; 
+            transform:translateX(-80%);
+            background:rgb(255, 255, 255); padding:10px 20px; 
+            border-radius:6px; 
+            box-shadow:0 2px 8px rgba(0,0,0,0.2); 
+            z-index:100;">
+
+    <span style="color: rgb(19, 0, 128);">Fenêtre Temporelle : </span>
+    <button id="btn-cp1" onclick="changerIndicateur('cp1')"
+            style="background:#003189; color:white; border:none; padding:5px 10px; border-radius:4px; cursor:pointer;">1h</button>
+    <button id="btn-cp2" onclick="changerIndicateur('cp2')"
+            style="background:#eee; color:#333; border:none; padding:5px 10px; border-radius:4px; cursor:pointer;">2h</button>
+    <button id="btn-cp3" onclick="changerIndicateur('cp3')"
+            style="background:#eee; color:#333; border:none; padding:5px 10px; border-radius:4px; cursor:pointer;">3h</button>
+    </div>
+
+    
+    <div style="
+        position: fixed;
+        top: 16px;
+        left: 20px;
+        width: 350px;
+        z-index: 150;
+        font-family: 'Segoe UI', Arial, sans-serif;
+    ">
+        <div style="position: relative;">
+            <span id="icone-recherche" style="
+                position: absolute;
+                left: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+            ">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </span>
+
+            <input
+                id="recherche-input"
+                type="text"
+                placeholder="Rechercher une ville, commune..."
+                style="
+                    width: 100%;
+                    padding: 10px 14px 10px 36px;
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    font-size: 13px;
+                    outline: none;
+                    box-sizing: border-box;
+                    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+                    background: white;
+                    color: #333;
+                "
+            />
+        </div>
+
+        <div id="recherche-resultats" style="
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 0 0 8px 8px;
+            display: none;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: -1px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+        "></div>
+    </div>
+
+    <div id="info-panel" style="
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 20px;
+        width: 700px;
+        background: white;
+        border-radius: 8px;
+        border-left: 5px solid #78be20;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        z-index: 200;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        overflow: hidden; ">
+
+    <div style="background:#003189; padding:10px 14px; display:flex; justify-content:space-between; align-items:center;">
+        <span style="color:white; font-weight:700; font-size:13px;">🛣 Information Congestion</span>
+        <button onclick="fermerPanneau()"
+                style="background:none; border:none; color:white; font-size:16px; cursor:pointer;">✕</button>
+    </div>
+    <div id="info-contenu" style="padding:12px 14px; font-size:14px; color:#333;"></div>
+    <div id="courbe-contenu" style="padding:0 14px 12px 14px;"></div>
+    <div id="courbe-liens" style="padding:0 14px;"></div>
+    </div>
+
+
+    <div id="hover-tooltip" style="
+    display: none;
+    position: fixed;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    pointer-events: none;
+    z-index: 300; "></div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="App.js"></script>
+
+</body>
+ 
+</html>
