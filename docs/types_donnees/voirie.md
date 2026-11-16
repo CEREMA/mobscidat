@@ -17,7 +17,7 @@ Tracé des routes, autoroutes, rues, chemins, etc.
   
 *   **Réseau Routier National (RRN) / Référentiel National Commun (RNC) :** Référentiel Interurbain ([RIU](https://www.cerema.fr/fr/system/files?file=documents/2017/10/Point3-3_SIGR_GREF_Journee_technique_SIR_2504_2017.pdf)) de la DGITM (https://www.bison-fute.gouv.fr/donnees-sur-le-referentiel.html ), travaux en cours en vue d'un Référentiel National Commun prévus début 2027 par l'IGN et la DGITM (expérimentation sur la DIRSO / Occitanie) pour articuler référentiel routier linéaire et BD TOPO.
 
-*   **Points Routiers (PR) et repérage : Les Points Routiers sont publiés par les départements et en général publiés sur data.gouv.fr ([exemple](https://www.data.gouv.fr/datasets/bornage-du-reseau-routier-points-pr)) et intégrés dans la BD TOPO.
+*   **Points Routiers (PR) et repérage** : Les Points Routiers sont publiés par les départements et en général publiés sur data.gouv.fr ([exemple](https://www.data.gouv.fr/datasets/bornage-du-reseau-routier-points-pr)) et intégrés dans la BD TOPO.
 
 *   **Formats :** Shapefile, GeoJSON, GeoPackage, CSV.
 
